@@ -1,0 +1,5124 @@
+[
+  {
+    "id": "final_p1-1",
+    "source": "final_p1",
+    "number": 1,
+    "type": "mcq",
+    "question": "Why is ROM technically described as \"program memory\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it has a faster access time than RAM."
+      },
+      {
+        "id": "B",
+        "text": "Because it is volatile and clears data upon restart."
+      },
+      {
+        "id": "C",
+        "text": "Because it is designed to hold the code."
+      },
+      {
+        "id": "D",
+        "text": "Because it uses P-regions for data storage."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-2",
+    "source": "final_p1",
+    "number": 2,
+    "type": "mcq",
+    "question": "Which feature primarily differentiates a Floating Gate MOSFET (FGM) from a conventional MOSFET?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The FGM lacks a Source and Drain region."
+      },
+      {
+        "id": "B",
+        "text": "The FGM has a gate that is electrically isolated and not directly connected to control circuitry."
+      },
+      {
+        "id": "C",
+        "text": "The FGM allows current to flow from the P-region to the N-region without voltage."
+      },
+      {
+        "id": "D",
+        "text": "The FGM cannot store a binary value."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-3",
+    "source": "final_p1",
+    "number": 3,
+    "type": "mcq",
+    "question": "What implies the \"non-volatile\" nature of the Floating Gate MOSFET?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The continuous application of power to the gate."
+      },
+      {
+        "id": "B",
+        "text": "The flow of electrons from Source to Drain."
+      },
+      {
+        "id": "C",
+        "text": "The connection of the gate to the ground (P region)."
+      },
+      {
+        "id": "D",
+        "text": "The oxide layer surrounding the gate."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-4",
+    "source": "final_p1",
+    "number": 4,
+    "type": "mcq",
+    "question": "Why is the term \"Floating\" used to describe the gate in this specific transistor structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it is suspended between two isolating materials."
+      },
+      {
+        "id": "B",
+        "text": "Because it physically moves between the source and drain."
+      },
+      {
+        "id": "C",
+        "text": "Because it floats on top of the N+ regions without touching the P body."
+      },
+      {
+        "id": "D",
+        "text": "Because its voltage fluctuates randomly."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-5",
+    "source": "final_p1",
+    "number": 5,
+    "type": "mcq",
+    "question": "In the standard MOSFET structure described, what is the function of the voltage applied to the gate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It charges the P region to become an insulator."
+      },
+      {
+        "id": "B",
+        "text": "It permanently stores data in the drain."
+      },
+      {
+        "id": "C",
+        "text": "It creates a conductive path for electrons to flow between the source and drain."
+      },
+      {
+        "id": "D",
+        "text": "It converts the N+ regions into P regions."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-6",
+    "source": "final_p1",
+    "number": 6,
+    "type": "mcq",
+    "question": "Which statement correctly compares the access time of ROM and RAM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ROM is faster than RAM."
+      },
+      {
+        "id": "B",
+        "text": "ROM and RAM have the same access time."
+      },
+      {
+        "id": "C",
+        "text": "ROM is slower than RAM."
+      },
+      {
+        "id": "D",
+        "text": "ROM access time is variable, while RAM is constant."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-7",
+    "source": "final_p1",
+    "number": 7,
+    "type": "mcq",
+    "question": "What is the function of the oxide layer surrounding the floating gate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It conducts electricity to the gate."
+      },
+      {
+        "id": "B",
+        "text": "It acts as the drain for the current."
+      },
+      {
+        "id": "C",
+        "text": "It converts the charge into heat."
+      },
+      {
+        "id": "D",
+        "text": "It allows the gate to retain charge by isolating it."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-8",
+    "source": "final_p1",
+    "number": 8,
+    "type": "mcq",
+    "question": "Why is ROM considered non-volatile memory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it uses RAM internally"
+      },
+      {
+        "id": "B",
+        "text": "Because it stores data using electric current continuously"
+      },
+      {
+        "id": "C",
+        "text": "Because it retains stored information even when power is removed"
+      },
+      {
+        "id": "D",
+        "text": "Because it has a faster access time than RAM"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-9",
+    "source": "final_p1",
+    "number": 9,
+    "type": "mcq",
+    "question": "In a Floating Gate MOSFET, what represents the bit value (0 or 1)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The voltage of the drain."
+      },
+      {
+        "id": "B",
+        "text": "The size of the P region."
+      },
+      {
+        "id": "C",
+        "text": "The speed of the electron flow."
+      },
+      {
+        "id": "D",
+        "text": "The charge stored inside the floating gate."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-10",
+    "source": "final_p1",
+    "number": 10,
+    "type": "mcq",
+    "question": "Why is the \"Floating Gate\" capable of non-volatile storage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is constantly powered by a small battery inside the chip."
+      },
+      {
+        "id": "B",
+        "text": "It is surrounded by an insulating oxide layer that traps charge even without power."
+      },
+      {
+        "id": "C",
+        "text": "It is connected to the ground, allowing current to flow continuously."
+      },
+      {
+        "id": "D",
+        "text": "It is made of magnetic material that resists electrical chan"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-11",
+    "source": "final_p1",
+    "number": 11,
+    "type": "mcq",
+    "question": "Physically, what happens to the electrons during the \"Programming State\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are repelled from the Floating Gate into the Source."
+      },
+      {
+        "id": "B",
+        "text": "They are neutralized by positive charges in the Control Gate."
+      },
+      {
+        "id": "C",
+        "text": "They flow freely from Source to Drain without stopping."
+      },
+      {
+        "id": "D",
+        "text": "They break through the first isolating region and get trapped in the Floating Gate."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-12",
+    "source": "final_p1",
+    "number": 12,
+    "type": "mcq",
+    "question": "If a Floating Gate contains trapped negative charges (electrons), how does the system interpret this state?",
+    "options": [
+      {
+        "id": "A",
+        "text": "As a Logic 1 (Erased State)."
+      },
+      {
+        "id": "B",
+        "text": "As a Logic 0 (Programmed State)."
+      },
+      {
+        "id": "C",
+        "text": "As a \"High Impedance\" state."
+      },
+      {
+        "id": "D",
+        "text": "As a system error."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-13",
+    "source": "final_p1",
+    "number": 13,
+    "type": "mcq",
+    "question": "Which physics principle explains the \"Erasing\" mechanism ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gravity pulling electrons down to the ground."
+      },
+      {
+        "id": "B",
+        "text": "Magnetic fields repelling the electrons."
+      },
+      {
+        "id": "C",
+        "text": "Unlike poles attract."
+      },
+      {
+        "id": "D",
+        "text": "Heat expanding the oxide layer to release charge."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-14",
+    "source": "final_p1",
+    "number": 14,
+    "type": "mcq",
+    "question": "To erase the data (reset to Logic 1), what specific voltage condition is applied?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High positive voltage is applied to the Drain."
+      },
+      {
+        "id": "B",
+        "text": "High negative voltage is applied to the Control Gate."
+      },
+      {
+        "id": "C",
+        "text": "Power is completely removed from the circuit."
+      },
+      {
+        "id": "D",
+        "text": "The Source and Drain are short-circuited."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-15",
+    "source": "final_p1",
+    "number": 15,
+    "type": "mcq",
+    "question": "In the \"Programmed State,\" the value of the bit is considered _____, and the charge in the floating gate is _____.",
+    "options": [
+      {
+        "id": "A",
+        "text": "One; Positive"
+      },
+      {
+        "id": "B",
+        "text": "Zero; Positive"
+      },
+      {
+        "id": "C",
+        "text": "One; Negative"
+      },
+      {
+        "id": "D",
+        "text": "Zero; Negative"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-16",
+    "source": "final_p1",
+    "number": 16,
+    "type": "mcq",
+    "question": "What is the function of the \"Control Gate\" in a Floating Gate MOSFET?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To store the data permanently."
+      },
+      {
+        "id": "B",
+        "text": "To connect directly to the floating gate to charge it."
+      },
+      {
+        "id": "C",
+        "text": "To isolate the transistor from the rest of the circuit."
+      },
+      {
+        "id": "D",
+        "text": "To apply voltage that influences the floating gate."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-17",
+    "source": "final_p1",
+    "number": 17,
+    "type": "mcq",
+    "question": "How is code physically written onto a standard ROM chip when using a \"burner\" or \"flasher\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The burner uses magnetic fields to align electrons."
+      },
+      {
+        "id": "B",
+        "text": "The burner applies high voltage to physically break an isolator."
+      },
+      {
+        "id": "C",
+        "text": "The burner uses a laser to etch the surface of the chip."
+      },
+      {
+        "id": "D",
+        "text": "The burner sends standard 5V logic signals to request a data save."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-18",
+    "source": "final_p1",
+    "number": 18,
+    "type": "mcq",
+    "question": "You are designing a cheap electronic toy for children that will be mass-produced (1 million units). The code will never change. Which memory type is most cost-effective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PROM"
+      },
+      {
+        "id": "B",
+        "text": "RAM"
+      },
+      {
+        "id": "C",
+        "text": "Mask Programmable ROM"
+      },
+      {
+        "id": "D",
+        "text": "Flash Memory"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-19",
+    "source": "final_p1",
+    "number": 19,
+    "type": "mcq",
+    "question": "A software engineer discovers a critical bug in the code of a device that uses Mask Programmable ROM. What is the only solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Send a software update to the user to overwrite the bad code."
+      },
+      {
+        "id": "B",
+        "text": "Use a high-voltage burner to reset the chip."
+      },
+      {
+        "id": "C",
+        "text": "The entire chip must be discarded and replaced with a new one."
+      },
+      {
+        "id": "D",
+        "text": "Erase the specific sector containing the bug and rewrite it."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-20",
+    "source": "final_p1",
+    "number": 20,
+    "type": "mcq",
+    "question": "What is the fundamental difference between Mask Programmable ROM and PROM regarding who performs the programming?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mask ROM is programmed by the user; PROM is programmed by the factory."
+      },
+      {
+        "id": "B",
+        "text": "Mask ROM is programmed by the factory; PROM is programmed by the user."
+      },
+      {
+        "id": "C",
+        "text": "Both are programmed by the user, but PROM is faster."
+      },
+      {
+        "id": "D",
+        "text": "Both are programmed by the factory, but Mask ROM is cheaper."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-21",
+    "source": "final_p1",
+    "number": 21,
+    "type": "mcq",
+    "question": "In a PROM chip, the memory structure is based on \"Fuses.\" If a fuse is \"burned,\" what logical value does it represent ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Logic 0"
+      },
+      {
+        "id": "B",
+        "text": "Logic 1"
+      },
+      {
+        "id": "C",
+        "text": "High Impedance"
+      },
+      {
+        "id": "D",
+        "text": "It returns to a blank state"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-22",
+    "source": "final_p1",
+    "number": 22,
+    "type": "mcq",
+    "question": "Why is PROM considered an \"OTP\" (One Time Programmable) memory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it requires a password (OTP) to access."
+      },
+      {
+        "id": "B",
+        "text": "Because it can only be read one time before self-destructing."
+      },
+      {
+        "id": "C",
+        "text": "Because once the internal fuses are burned, they cannot be physically restored."
+      },
+      {
+        "id": "D",
+        "text": "Because it can only store one byte of data."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-23",
+    "source": "final_p1",
+    "number": 23,
+    "type": "mcq",
+    "question": "Which device is used to write or \"burn\" code onto a ROM chip?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Microprocessor"
+      },
+      {
+        "id": "B",
+        "text": "The Compiler"
+      },
+      {
+        "id": "C",
+        "text": "The Burner or Flasher"
+      },
+      {
+        "id": "D",
+        "text": "The Operating System"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-24",
+    "source": "final_p1",
+    "number": 24,
+    "type": "mcq",
+    "question": "What is the advantage of EPROM over the PROM and Mask ROM ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is cheaper to manufacture in large quantities."
+      },
+      {
+        "id": "B",
+        "text": "It has a faster access time than RAM."
+      },
+      {
+        "id": "C",
+        "text": "It does not require any power to retain data."
+      },
+      {
+        "id": "D",
+        "text": "The chip can be erased and reprogrammed multiple times."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-25",
+    "source": "final_p1",
+    "number": 25,
+    "type": "mcq",
+    "question": "Why is it necessary to cover the window of an EPROM chip when it is in use (not being erased)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To keep the chip warm."
+      },
+      {
+        "id": "B",
+        "text": "To prevent external radiation and noise from accidentally corrupting the data."
+      },
+      {
+        "id": "C",
+        "text": "To prevent the ultraviolet light from leaking out of the chip."
+      },
+      {
+        "id": "D",
+        "text": "Because the window is conductive and might short-circuit the board."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-26",
+    "source": "final_p1",
+    "number": 26,
+    "type": "mcq",
+    "question": "Why is Flash memory preferred over E^2PROM for mass storage devices despite having lower endurance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because Flash uses byte-level access which is more precise."
+      },
+      {
+        "id": "B",
+        "text": "Because Flash is significantly cheaper per bit, allowing for higher density."
+      },
+      {
+        "id": "C",
+        "text": "Because Flash never wears out, unlike E^2PROM."
+      },
+      {
+        "id": "D",
+        "text": "Because Flash is volatile and faster to clear."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-27",
+    "source": "final_p1",
+    "number": 27,
+    "type": "mcq",
+    "question": "What is the primary operational trade-off you face when writing data to Flash memory compared to E^2PROM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flash requires a battery to write data."
+      },
+      {
+        "id": "B",
+        "text": "Flash cannot store binary code, only text."
+      },
+      {
+        "id": "C",
+        "text": "Flash is much slower to read than E^2PROM."
+      },
+      {
+        "id": "D",
+        "text": "To change a single piece of data in Flash, you must erase and rewrite an entire sector/block."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-28",
+    "source": "final_p1",
+    "number": 28,
+    "type": "mcq",
+    "question": "NVRAM is described as having the advantages of both RAM and ROM How is this physically achieved in the \"SRAM + Battery\" type?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It uses a special magnetic material that doesn't need power."
+      },
+      {
+        "id": "B",
+        "text": "It uses a standard volatile SRAM chip but keeps it powered continuously using a backup battery."
+      },
+      {
+        "id": "C",
+        "text": "It writes data to a hard drive immediately."
+      },
+      {
+        "id": "D",
+        "text": "It uses a capacitor that generates electricity from heat."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-29",
+    "source": "final_p1",
+    "number": 29,
+    "type": "mcq",
+    "question": "Regarding \"Endurance\" (the number of times memory can be erased/written), which scenario correctly matches the memory type?",
+    "options": [
+      {
+        "id": "A",
+        "text": "E^2PROM is best for frequently updated configuration data because it has higher endurance (100,000 cycles)."
+      },
+      {
+        "id": "B",
+        "text": "Flash is best for data that changes every second because it has high endurance (100,000 cycles)."
+      },
+      {
+        "id": "C",
+        "text": "Both have infinite endurance and never degrade."
+      },
+      {
+        "id": "D",
+        "text": "NVRAM has the lowest endurance of all types."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-30",
+    "source": "final_p1",
+    "number": 30,
+    "type": "mcq",
+    "question": "Why is Flash memory generally considered faster for large data transfers than E^2PROM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because Flash uses \"Block Access,\" dealing with large chunks of data at once."
+      },
+      {
+        "id": "B",
+        "text": "Because Flash is located inside the CPU registers."
+      },
+      {
+        "id": "C",
+        "text": "Because E^2PROM requires a manual switch to be erased."
+      },
+      {
+        "id": "D",
+        "text": "Because Flash uses a battery to boost speed."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-31",
+    "source": "final_p1",
+    "number": 31,
+    "type": "mcq",
+    "question": "In the hybrid NVRAM type defined as \"(SRAM + E^2PROM + Small Battery)\", what occurs exactly when the main power is disconnected?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The data is lost immediately, as SRAM is volatile."
+      },
+      {
+        "id": "B",
+        "text": "The battery powers the system indefinitely to keep the SRAM running."
+      },
+      {
+        "id": "C",
+        "text": "The system uses the battery energy to transfer critical data from the volatile SRAM to the non-volatile E^2PROM."
+      },
+      {
+        "id": "D",
+        "text": "The E^2PROM transfers its empty space to the SRAM."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-32",
+    "source": "final_p1",
+    "number": 32,
+    "type": "mcq",
+    "question": "If you have a variable stored in Flash memory and you want to change its value from 0 to 1, why is this operation complex?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because Flash is Read-Only and cannot be changed."
+      },
+      {
+        "id": "B",
+        "text": "Because you must erase the whole block which sets bits to 1."
+      },
+      {
+        "id": "C",
+        "text": "Because you need a UV light to erase Flash memory."
+      },
+      {
+        "id": "D",
+        "text": "Because Flash memory is volatile and the data doesn't exist."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-33",
+    "source": "final_p1",
+    "number": 33,
+    "type": "mcq",
+    "question": "How does the CPU interact differently with Internal E^2PROM versus External E^2PROM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internal is accessed via communication protocols (like I2C/SPI); External is on the main bus."
+      },
+      {
+        "id": "B",
+        "text": "Internal is accessed directly via the master bus; External requires communication protocols."
+      },
+      {
+        "id": "C",
+        "text": "There is no difference; both are accessed exactly the same way."
+      },
+      {
+        "id": "D",
+        "text": "External E^2PROM is wireless."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-34",
+    "source": "final_p1",
+    "number": 34,
+    "type": "mcq",
+    "question": "CPU speed is faster than RAM speed. What problem does this speed mismatch create that Cache Memory solves?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CPU heats up waiting for the RAM."
+      },
+      {
+        "id": "B",
+        "text": "The RAM overwrites data because the CPU is too fast."
+      },
+      {
+        "id": "C",
+        "text": "The CPU wastes time waiting for data to arrive from the slower main memory."
+      },
+      {
+        "id": "D",
+        "text": "The Bus system gets overloaded with too much data."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-35",
+    "source": "final_p1",
+    "number": 35,
+    "type": "mcq",
+    "question": "When the CPU requests a specific address (e.g., 3001), the Cache controller fetches that address plus the next few addresses (e.g., 3002, 3003). What is the reasoning behind this behavior?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To fill up the empty space in the Cache as quickly as possible."
+      },
+      {
+        "id": "B",
+        "text": "To test if the RAM is working correctly."
+      },
+      {
+        "id": "C",
+        "text": "Because it is highly probable that the CPU will need the sequential instructions/data next."
+      },
+      {
+        "id": "D",
+        "text": "Because the bus cannot transfer a single address alone; it must transfer a block."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-36",
+    "source": "final_p1",
+    "number": 36,
+    "type": "mcq",
+    "question": "If the \"Hit Ratio\" of a system is very low (e.g., 10%), what does this indicate about the system's performance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system is performing excellently; the CPU rarely accesses RAM."
+      },
+      {
+        "id": "B",
+        "text": "The system experiences frequent cache misses."
+      },
+      {
+        "id": "C",
+        "text": "The Cache memory is too large."
+      },
+      {
+        "id": "D",
+        "text": "The CPU is running too slowly."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-37",
+    "source": "final_p1",
+    "number": 37,
+    "type": "mcq",
+    "question": "What is the specific role of the \"Controller\" inside the Cache system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To manage the logic of fetching addresses from main memory."
+      },
+      {
+        "id": "B",
+        "text": "To permanently store the Operating System code."
+      },
+      {
+        "id": "C",
+        "text": "To increase the voltage going to the CPU."
+      },
+      {
+        "id": "D",
+        "text": "To calculate the mathematical operations for the CPU."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-38",
+    "source": "final_p1",
+    "number": 38,
+    "type": "mcq",
+    "question": "Physically, where is the Cache Memory located in the computer architecture described?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inside the Hard Disk Drive."
+      },
+      {
+        "id": "B",
+        "text": "Strictly on the motherboard, far away from the CPU."
+      },
+      {
+        "id": "C",
+        "text": "Between the RAM and the Hard Disk."
+      },
+      {
+        "id": "D",
+        "text": "Between the CPU and the Main Memory."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-39",
+    "source": "final_p1",
+    "number": 39,
+    "type": "mcq",
+    "question": "In a scenario where a \"Cache Miss\" occurs, what is the immediate next step the system must take?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system crashes and restarts."
+      },
+      {
+        "id": "B",
+        "text": "The Controller fetches the required data from the slower Main Memory into the Cache."
+      },
+      {
+        "id": "C",
+        "text": "The CPU skips that instruction and moves to the next one."
+      },
+      {
+        "id": "D",
+        "text": "The data is marked as \"deleted.\""
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-40",
+    "source": "final_p1",
+    "number": 40,
+    "type": "mcq",
+    "question": "Physically, Cache Memory is constructed using which type of technology?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Static RAM"
+      },
+      {
+        "id": "B",
+        "text": "Dynamic RAM"
+      },
+      {
+        "id": "C",
+        "text": "Flash Memory"
+      },
+      {
+        "id": "D",
+        "text": "Magnetic Tape"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-41",
+    "source": "final_p1",
+    "number": 41,
+    "type": "mcq",
+    "question": "Why is Cache Memory typically smaller in size compared to Main Memory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it is slower."
+      },
+      {
+        "id": "B",
+        "text": "Because it is high cost per bit ."
+      },
+      {
+        "id": "C",
+        "text": "Because the CPU cannot address large memories."
+      },
+      {
+        "id": "D",
+        "text": "Because it is volatile."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-42",
+    "source": "final_p1",
+    "number": 42,
+    "type": "mcq",
+    "question": "A CPU makes 200 memory references (access attempts). If the data is found in the Cache 170 times (Hits) and not found 30 times (Misses), what is the Hit Ratio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15%"
+      },
+      {
+        "id": "B",
+        "text": "30%"
+      },
+      {
+        "id": "C",
+        "text": "85%"
+      },
+      {
+        "id": "D",
+        "text": "90%"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-43",
+    "source": "final_p1",
+    "number": 43,
+    "type": "mcq",
+    "question": "In a multi-core processor architecture, where is Level 1 (L1) cache typically located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Outside the microprocessor on the motherboard."
+      },
+      {
+        "id": "B",
+        "text": "Inside the MCU but shared between all cores."
+      },
+      {
+        "id": "C",
+        "text": "Inside each individual core."
+      },
+      {
+        "id": "D",
+        "text": "On the hard drive controller."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-44",
+    "source": "final_p1",
+    "number": 44,
+    "type": "mcq",
+    "question": "Which of the following correctly orders the memory types from FASTEST to SLOWEST ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L3 Cache > L2 Cache > L1 Cache > RAM"
+      },
+      {
+        "id": "B",
+        "text": "RAM > L1 Cache > Register Files > ROM"
+      },
+      {
+        "id": "C",
+        "text": "Register Files > L1 Cache > L2 Cache > L3 Cache"
+      },
+      {
+        "id": "D",
+        "text": "ROM > RAM > L3 Cache > Register Files"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-45",
+    "source": "final_p1",
+    "number": 45,
+    "type": "mcq",
+    "question": "How is the \"notification\" for cache coherence physically managed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Operating System sends a software interrupt."
+      },
+      {
+        "id": "B",
+        "text": "The Cache Controller of the modifying core communicates with the controllers of other cores."
+      },
+      {
+        "id": "C",
+        "text": "The user must manually update the variable."
+      },
+      {
+        "id": "D",
+        "text": "The L3 cache overwrites L1 automatically every second."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-46",
+    "source": "final_p1",
+    "number": 46,
+    "type": "mcq",
+    "question": "What major problem can occur in multi-core processors when Core 1 and Core 2 cache the same address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data inconsistency."
+      },
+      {
+        "id": "B",
+        "text": "One core will stop working."
+      },
+      {
+        "id": "C",
+        "text": "The processor will overheat immediately."
+      },
+      {
+        "id": "D",
+        "text": "The L3 cache will become full."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-47",
+    "source": "final_p1",
+    "number": 47,
+    "type": "mcq",
+    "question": "If Core 1 modifies a value in its L1 cache that is also stored in Core 2's cache, which mechanism ensures that Core 2 is notified of this change?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cache Miss"
+      },
+      {
+        "id": "B",
+        "text": "Cache Coherence"
+      },
+      {
+        "id": "C",
+        "text": "Block Access"
+      },
+      {
+        "id": "D",
+        "text": "Register Files"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-48",
+    "source": "final_p1",
+    "number": 48,
+    "type": "mcq",
+    "question": "Why does the FPU \"lowers CPU load\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the FPU takes over the job of cooling the processor."
+      },
+      {
+        "id": "B",
+        "text": "Because the FPU shuts down the main CPU during calculations."
+      },
+      {
+        "id": "C",
+        "text": "Because the main CPU can offload complex math tasks to the FPU."
+      },
+      {
+        "id": "D",
+        "text": "Because the FPU increases the clock speed of the entire system."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-49",
+    "source": "final_p1",
+    "number": 49,
+    "type": "mcq",
+    "question": "You are comparing a modern Intel Core processor with an ancient Intel 8086 system. Regarding the FPU, what is the key architectural difference?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The modern processor has no FPU; the 8086 had a built-in one."
+      },
+      {
+        "id": "B",
+        "text": "The modern processor has the FPU integrated inside the chip; the 8086 required an external FPU chip."
+      },
+      {
+        "id": "C",
+        "text": "The modern processor uses software for math; the 8086 used hardware."
+      },
+      {
+        "id": "D",
+        "text": "Both systems use external FPU chips."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-50",
+    "source": "final_p1",
+    "number": 50,
+    "type": "mcq",
+    "question": "Which of the following applications would see the massive performance improvement by adding an FPU to the hardware?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A 3D flight simulator game involving complex physics."
+      },
+      {
+        "id": "B",
+        "text": "A digital thermometer display."
+      },
+      {
+        "id": "C",
+        "text": "A simple text editor (Notepad)."
+      },
+      {
+        "id": "D",
+        "text": "A basic calculator doing 1 + 1."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-51",
+    "source": "final_p1",
+    "number": 51,
+    "type": "mcq",
+    "question": "If a system lacks a hardware FPU, how does it handle a calculation like square_root(3.14)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It returns an error and crashes."
+      },
+      {
+        "id": "B",
+        "text": "It approximates the result using integer estimation, which is very fast."
+      },
+      {
+        "id": "C",
+        "text": "It performs the calculation using software algorithms on the main CPU, which is significantly slower."
+      },
+      {
+        "id": "D",
+        "text": "It sends the data to the RAM to calculate."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-52",
+    "source": "final_p1",
+    "number": 52,
+    "type": "mcq",
+    "question": "Why are Trigonometric functions listed as FPU functions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because they are simple additions."
+      },
+      {
+        "id": "B",
+        "text": "Because they are integer-based logic operations."
+      },
+      {
+        "id": "C",
+        "text": "Because they involve complex non-linear mathematical curves requiring floating-point algorithms."
+      },
+      {
+        "id": "D",
+        "text": "Because they are used to control the fan speed."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-53",
+    "source": "final_p1",
+    "number": 53,
+    "type": "mcq",
+    "question": "Which of the following best describes the logical sequence of a memory operation when an MPU is present?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Access Cache → Check MPU → Access RAM."
+      },
+      {
+        "id": "B",
+        "text": "CPU initiates access → MPU validates permissions → Access proceeds to RAM."
+      },
+      {
+        "id": "C",
+        "text": "CPU writes to RAM → MPU checks the data later for errors."
+      },
+      {
+        "id": "D",
+        "text": "MPU encrypts address → CPU decrypts address → Access RAM."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-54",
+    "source": "final_p1",
+    "number": 54,
+    "type": "mcq",
+    "question": "The MPU's location. Which statement is physically accurate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The MPU is a hardware component integrated inside the microcontroller."
+      },
+      {
+        "id": "B",
+        "text": "The MPU is a software program running in the background."
+      },
+      {
+        "id": "C",
+        "text": "The MPU is a separate chip soldered on the motherboard between the CPU and RAM slots."
+      },
+      {
+        "id": "D",
+        "text": "The MPU is located inside the power supply unit to control voltage."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-55",
+    "source": "final_p1",
+    "number": 55,
+    "type": "mcq",
+    "question": "What happens if the MPU detects a violation (e.g., a program tries to write to a Read-Only region)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The access is blocked, preventing the memory modification."
+      },
+      {
+        "id": "B",
+        "text": "The access is allowed, but a warning is logged"
+      },
+      {
+        "id": "C",
+        "text": "The CPU automatically shuts down permanently."
+      },
+      {
+        "id": "D",
+        "text": "The MPU modifies the data to make it safe."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-56",
+    "source": "final_p1",
+    "number": 56,
+    "type": "mcq",
+    "question": "If an Operating System (OS) wants to ensure that a specific memory region containing \"Kernel Code\" cannot be modified by a user application, how does it use the MPU?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It physically removes the write wires from that memory region."
+      },
+      {
+        "id": "B",
+        "text": "It configures the MPU registers to mark that region as \"Read-Only\" for unprivileged levels."
+      },
+      {
+        "id": "C",
+        "text": "It moves the Kernel Code to the Hard Drive."
+      },
+      {
+        "id": "D",
+        "text": "It tells the Cache to stop working for that region."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-57",
+    "source": "final_p1",
+    "number": 57,
+    "type": "mcq",
+    "question": "By restricting which parts of memory a program can read or write, the MPU helps achieve:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Higher voltage consumption."
+      },
+      {
+        "id": "B",
+        "text": "Fault isolation and system security."
+      },
+      {
+        "id": "C",
+        "text": "Faster internet speeds."
+      },
+      {
+        "id": "D",
+        "text": "Larger storage capacity."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-58",
+    "source": "final_p1",
+    "number": 58,
+    "type": "mcq",
+    "question": "In a complex system running both Linux and an RTOS on the same microcontroller, what is the primary function of the MPU in this specific context?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To increase the clock speed for the Linux kernel."
+      },
+      {
+        "id": "B",
+        "text": "To act as a network bridge between the two operating systems."
+      },
+      {
+        "id": "C",
+        "text": "To physically map and enforce memory ranges so that Linux and RTOS."
+      },
+      {
+        "id": "D",
+        "text": "To merge the two operating systems into a single code base."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-59",
+    "source": "final_p1",
+    "number": 59,
+    "type": "mcq",
+    "question": "where is the \"Hypervisor\" layer placed in the system hierarchy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "On top of the Operating Systems (Application layer)."
+      },
+      {
+        "id": "B",
+        "text": "Inside the Cloud."
+      },
+      {
+        "id": "C",
+        "text": "Beneath each Operating System (between the OS and the hardware)."
+      },
+      {
+        "id": "D",
+        "text": "Inside the MPU registers."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-60",
+    "source": "final_p1",
+    "number": 60,
+    "type": "mcq",
+    "question": "If a task running in \"User Mode\" (Unprivileged) attempts to write data to a memory region configured as \"Read-Only\" and \"Privileged Access Only,\" what is the immediate hardware consequence described?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system generates a \"Bus Fault,\" and the system is stopped."
+      },
+      {
+        "id": "B",
+        "text": "The MPU automatically fixes the permission and allows the write."
+      },
+      {
+        "id": "C",
+        "text": "The data is written to a temporary buffer instead."
+      },
+      {
+        "id": "D",
+        "text": "The CPU switches to a backup core."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-61",
+    "source": "final_p1",
+    "number": 61,
+    "type": "mcq",
+    "question": "How does the physical nature of the MPU?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a software script running inside the Linux kernel."
+      },
+      {
+        "id": "B",
+        "text": "It is a hardware circuit that splits RAM into ranges of addresses."
+      },
+      {
+        "id": "C",
+        "text": "It is an external firewall device connected via USB."
+      },
+      {
+        "id": "D",
+        "text": "It is a type of volatile cache memory."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-62",
+    "source": "final_p1",
+    "number": 62,
+    "type": "mcq",
+    "question": "If you configure a memory region as \"Executable allowed\" but \"Read-Only,\" which of the following actions is valid?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Running a program code stored in that region."
+      },
+      {
+        "id": "B",
+        "text": "Saving a new variable value into that region."
+      },
+      {
+        "id": "C",
+        "text": "Deleting the region."
+      },
+      {
+        "id": "D",
+        "text": "Both A and B."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-63",
+    "source": "final_p1",
+    "number": 63,
+    "type": "mcq",
+    "question": "Which of the following is NOT listed as a direct provision/benefit of the MPU?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fault detection."
+      },
+      {
+        "id": "B",
+        "text": "Memory protection."
+      },
+      {
+        "id": "C",
+        "text": "Increasing the physical size of the RAM."
+      },
+      {
+        "id": "D",
+        "text": "Improved reliability and security."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-64",
+    "source": "final_p1",
+    "number": 64,
+    "type": "mcq",
+    "question": "What is the core function of the Memory Management Unit (MMU)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To increase the physical size of the RAM chip."
+      },
+      {
+        "id": "B",
+        "text": "To translate virtual addresses used by software into physical addresses in hardware."
+      },
+      {
+        "id": "C",
+        "text": "To protect the CPU from overheating."
+      },
+      {
+        "id": "D",
+        "text": "To manage the voltage supply to the memory."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-65",
+    "source": "final_p1",
+    "number": 65,
+    "type": "mcq",
+    "question": "In the context of MMU and Paging, where is the \"rest\" of the application data stored when it is not currently active in the 1 GB physical RAM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is deleted permanently."
+      },
+      {
+        "id": "B",
+        "text": "It is stored in the CPU registers."
+      },
+      {
+        "id": "C",
+        "text": "It is stored on the ROM."
+      },
+      {
+        "id": "D",
+        "text": "It is stored in the Disk."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p1-66",
+    "source": "final_p1",
+    "number": 66,
+    "type": "mcq",
+    "question": "If you are selecting a microcontroller for a project and you absolutely need to run a standard desktop-style Linux distribution, which two features does the text say you must check for?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Core Speed and Presence of an MMU."
+      },
+      {
+        "id": "B",
+        "text": "RAM size and WiFi capability."
+      },
+      {
+        "id": "C",
+        "text": "Presence of an FPU and Bluetooth."
+      },
+      {
+        "id": "D",
+        "text": "Battery life and Screen resolution."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-67",
+    "source": "final_p1",
+    "number": 67,
+    "type": "mcq",
+    "question": "Without an MMU, how does a standard microcontroller handle memory addresses?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It uses virtual addresses just like a PC."
+      },
+      {
+        "id": "B",
+        "text": "It uses physical addresses directly."
+      },
+      {
+        "id": "C",
+        "text": "It cannot use RAM at all."
+      },
+      {
+        "id": "D",
+        "text": "It uses cloud storage."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-68",
+    "source": "final_p1",
+    "number": 68,
+    "type": "mcq",
+    "question": "Why is the presence of an MMU considered a critical factor for running full operating systems like Linux on a microcontroller?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because Linux requires virtual memory management to map its processes and \"spread itself out.\""
+      },
+      {
+        "id": "B",
+        "text": "Because Linux cannot run on ARM processors."
+      },
+      {
+        "id": "C",
+        "text": "Because the MMU contains the Linux kernel code."
+      },
+      {
+        "id": "D",
+        "text": "Because Linux requires a touch screen."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-69",
+    "source": "final_p1",
+    "number": 69,
+    "type": "mcq",
+    "question": "You have a system with only 1 GB of physical RAM, but you want to run a large game that requires 8 GB of memory space. How does the MMU handle this situation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It compresses the game’s 8 GB memory requirements into 1 GB using file compression techniques."
+      },
+      {
+        "id": "B",
+        "text": "It uses virtual memory to give the application the illusion of 8 GB of memory, while managing which portions are actually loaded into the 1 GB of physical RAM."
+      },
+      {
+        "id": "C",
+        "text": "It expands the system’s RAM by downloading additional memory resources from the internet."
+      },
+      {
+        "id": "D",
+        "text": "It prevents the application from running and causes an immediate system crash."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-70",
+    "source": "final_p1",
+    "number": 70,
+    "type": "mcq",
+    "question": "In the flow of operation described for a dual-core system, the Core communicates with the OS, and then the access request is sent to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The hard drive controller to directly read or write data."
+      },
+      {
+        "id": "B",
+        "text": "The Hypervisor, then the MPU to validate the address range."
+      },
+      {
+        "id": "C",
+        "text": "The user interface layer to request permission for access."
+      },
+      {
+        "id": "D",
+        "text": "The neighboring core to synchronize execution and memory access."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-71",
+    "source": "final_p1",
+    "number": 71,
+    "type": "mcq",
+    "question": "What is the name of the technique used by the Operating System to manage memory chunks between RAM and Disk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paging"
+      },
+      {
+        "id": "B",
+        "text": "Caching"
+      },
+      {
+        "id": "C",
+        "text": "Thrashing"
+      },
+      {
+        "id": "D",
+        "text": "Polling"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-72",
+    "source": "final_p1",
+    "number": 72,
+    "type": "mcq",
+    "question": "If a microcontroller lacks an MMU, which limitation is it most likely to face regarding Operating Systems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It cannot perform math operations."
+      },
+      {
+        "id": "B",
+        "text": "It cannot use interruptions."
+      },
+      {
+        "id": "C",
+        "text": "It cannot run standard, full-featured operating systems like Linux."
+      },
+      {
+        "id": "D",
+        "text": "It consumes too much power."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-73",
+    "source": "final_p1",
+    "number": 73,
+    "type": "mcq",
+    "question": "Control Bus signals described (Active Low), if the system is currently performing a \"Memory Write\" operation, what logic levels would you expect to see on the control lines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All lines are set to 0."
+      },
+      {
+        "id": "B",
+        "text": "All lines are set to 1."
+      },
+      {
+        "id": "C",
+        "text": "The specific Write line ( MWTC) is 0, and all other lines are 1."
+      },
+      {
+        "id": "D",
+        "text": "The specific Write line ( MWTC) is 1, and all other lines are 0."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-74",
+    "source": "final_p1",
+    "number": 74,
+    "type": "mcq",
+    "question": "Which bus is responsible for carrying the actual instruction code or variable value between the CPU and Memory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Address Bus"
+      },
+      {
+        "id": "B",
+        "text": "Control Bus"
+      },
+      {
+        "id": "C",
+        "text": "Data Bus"
+      },
+      {
+        "id": "D",
+        "text": "System Clock"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-75",
+    "source": "final_p1",
+    "number": 75,
+    "type": "mcq",
+    "question": "When the CPU wants to send a document to a Printer (Output Device), how do the buses behave?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Address Bus selects the Printer; Data Bus carries text from CPU to Printer; Control signal enables Write."
+      },
+      {
+        "id": "B",
+        "text": "Address Bus selects the Printer; Data Bus reads status from Printer; Control signal enables Read."
+      },
+      {
+        "id": "C",
+        "text": "The CPU waits for the Printer to take control of the Address Bus."
+      },
+      {
+        "id": "D",
+        "text": "The Control Bus carries the actual text data."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-76",
+    "source": "final_p1",
+    "number": 76,
+    "type": "mcq",
+    "question": "What is the definition of \"Active Low\" logic ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The signal is active when the voltage is High (Logic 1)."
+      },
+      {
+        "id": "B",
+        "text": "The signal is active when the voltage is Low (Logic 0)."
+      },
+      {
+        "id": "C",
+        "text": "The signal is active only when the system is powered down."
+      },
+      {
+        "id": "D",
+        "text": "The signal is always 0, regardless of activity."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-77",
+    "source": "final_p1",
+    "number": 77,
+    "type": "mcq",
+    "question": "Why does the text distinguish between \"MRDC\" (Memory Read) and \"IORC\" (I/O Read) instead of just having one universal \"Read\" signal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because Memory and Peripherals are addressed differently and need distinct control signals."
+      },
+      {
+        "id": "B",
+        "text": "Because I/O devices are faster than Memory."
+      },
+      {
+        "id": "C",
+        "text": "Because the Data Bus cannot handle I/O data."
+      },
+      {
+        "id": "D",
+        "text": "Because MRDC is for writing and IORC is for reading."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-78",
+    "source": "final_p1",
+    "number": 78,
+    "type": "mcq",
+    "question": "If the CPU places the value 0x1000 on the Address Bus and asserts the MRDC (Read) signal, what is the expected response?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The RAM at location 0x1000 will overwrite the CPU."
+      },
+      {
+        "id": "B",
+        "text": "The Memory at address 0x1000 will place its stored data onto the Data Bus for the CPU to collect."
+      },
+      {
+        "id": "C",
+        "text": "The Printer will print the number 1000."
+      },
+      {
+        "id": "D",
+        "text": "The specific address 0x1000 is erased."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-79",
+    "source": "final_p1",
+    "number": 79,
+    "type": "mcq",
+    "question": "The CPU is connected to Memory using a \"Bus Set.\" What are the three specific buses that make up this set?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Input Bus, Output Bus, Power Bus"
+      },
+      {
+        "id": "B",
+        "text": "Address Bus, Control Bus, Data Bus"
+      },
+      {
+        "id": "C",
+        "text": "RAM Bus, ROM Bus, CPU Bus"
+      },
+      {
+        "id": "D",
+        "text": "System Bus, Universal Bus, Serial Bus"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-80",
+    "source": "final_p1",
+    "number": 80,
+    "type": "mcq",
+    "question": "Which of the following best describes the directionality of the \"Data Bus\" in a general sense?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uni-Directional (Microprocessor → RAM)"
+      },
+      {
+        "id": "B",
+        "text": "Uni-Directional (ROM → Microprocessor)"
+      },
+      {
+        "id": "C",
+        "text": "Bi-Directional (RAM → Microprocessor)"
+      },
+      {
+        "id": "D",
+        "text": "Omni-Directional"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-81",
+    "source": "final_p1",
+    "number": 81,
+    "type": "mcq",
+    "question": "When the microprocessor interacts specifically with ROM (Read Only Memory), how does the Data Bus behave?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It remains Bi-Directional."
+      },
+      {
+        "id": "B",
+        "text": "It becomes Uni-Directional (Microprocessor reads from ROM only)."
+      },
+      {
+        "id": "C",
+        "text": "It becomes Uni-Directional (Microprocessor writes to ROM only)."
+      },
+      {
+        "id": "D",
+        "text": "It disconnects completely."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-82",
+    "source": "final_p1",
+    "number": 82,
+    "type": "mcq",
+    "question": "What is the direction of the \"Address Bus\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bi-Directional (CPU ↔ Memory)"
+      },
+      {
+        "id": "B",
+        "text": "Omni-Directional"
+      },
+      {
+        "id": "C",
+        "text": "Uni-Directional"
+      },
+      {
+        "id": "D",
+        "text": "It depends on the voltage."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-83",
+    "source": "final_p1",
+    "number": 83,
+    "type": "mcq",
+    "question": "Which control signal is used specifically for writing data to RAM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MRDC"
+      },
+      {
+        "id": "B",
+        "text": "IORC"
+      },
+      {
+        "id": "C",
+        "text": "MWTC"
+      },
+      {
+        "id": "D",
+        "text": "ALC"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-84",
+    "source": "final_p1",
+    "number": 84,
+    "type": "mcq",
+    "question": "Why is the Data Bus considered \"Bi-Directional\" when connecting to RAM, but effectively \"Uni-Directional\" when connecting to ROM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because ROM is faster than RAM."
+      },
+      {
+        "id": "B",
+        "text": "Because the CPU can both Read from and Write to RAM, but can only Read from ROM."
+      },
+      {
+        "id": "C",
+        "text": "Because ROM uses a different voltage than RAM."
+      },
+      {
+        "id": "D",
+        "text": "Because the Address Bus interferes with the ROM data."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-85",
+    "source": "final_p1",
+    "number": 85,
+    "type": "mcq",
+    "question": "In a Von-Neumann system, if the CPU is currently executing an instruction fetched from ROM, can it immediately fetch data from RAM at the exact same instant?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes, because RAM and ROM have different address ranges."
+      },
+      {
+        "id": "B",
+        "text": "Yes, because the bus is split into two channels."
+      },
+      {
+        "id": "C",
+        "text": "No, because there is only one bus set."
+      },
+      {
+        "id": "D",
+        "text": "No, because RAM is slower than ROM."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-86",
+    "source": "final_p1",
+    "number": 86,
+    "type": "mcq",
+    "question": "The Von-Neumann as \"Memory Mapped.\" What does this imply for the addresses of RAM and ROM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They have distinct, non-overlapping ranges ."
+      },
+      {
+        "id": "B",
+        "text": "They have identical addresses ."
+      },
+      {
+        "id": "C",
+        "text": "The CPU cannot distinguish between them."
+      },
+      {
+        "id": "D",
+        "text": "They are mapped to different ports on the motherboard."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-87",
+    "source": "final_p1",
+    "number": 87,
+    "type": "mcq",
+    "question": "Why is the Harvard Architecture described as being able to solve the \"bottleneck\" found in Von-Neumann systems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it uses a faster CPU clock."
+      },
+      {
+        "id": "B",
+        "text": "Because the CPU is connected with two different address buses."
+      },
+      {
+        "id": "C",
+        "text": "Because it removes ROM entirely from the system."
+      },
+      {
+        "id": "D",
+        "text": "Because it compresses the data on the bus."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-88",
+    "source": "final_p1",
+    "number": 88,
+    "type": "mcq",
+    "question": "Which assembly instructions indicate that the CPU is communicating with RAM in a Harvard system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Load / Store"
+      },
+      {
+        "id": "B",
+        "text": "Read / Write"
+      },
+      {
+        "id": "C",
+        "text": "Input / Output"
+      },
+      {
+        "id": "D",
+        "text": "Fetch / Decode"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-89",
+    "source": "final_p1",
+    "number": 89,
+    "type": "mcq",
+    "question": "If you are writing software for a Harvard-based controller and you use the assembly instructions \"Read\" or \"Write\", which memory is the target?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RAM"
+      },
+      {
+        "id": "B",
+        "text": "The Hard Disk"
+      },
+      {
+        "id": "C",
+        "text": "ROM"
+      },
+      {
+        "id": "D",
+        "text": "The Cache"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-90",
+    "source": "final_p1",
+    "number": 90,
+    "type": "mcq",
+    "question": "Regarding writing to memory: The text states that the CPU cannot natively \"Write\" to ROM during normal operation. How is code typically placed onto a Flash ROM initially?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CPU uses the \"Store\" command."
+      },
+      {
+        "id": "B",
+        "text": "Using an additional part like a \"burner\" or flash driver to burn the program."
+      },
+      {
+        "id": "C",
+        "text": "The RAM copies itself to the ROM automatically."
+      },
+      {
+        "id": "D",
+        "text": "It is impossible to write to Flash memory."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-91",
+    "source": "final_p1",
+    "number": 91,
+    "type": "mcq",
+    "question": "Which architecture allows the specific advantage of \"Completing a fetch cycle in ROM while simultaneously accessing data in RAM\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Von-Neumann Architecture"
+      },
+      {
+        "id": "B",
+        "text": "Single-Bus Architecture"
+      },
+      {
+        "id": "C",
+        "text": "Harvard Architecture"
+      },
+      {
+        "id": "D",
+        "text": "Memory-Mapped Architecture"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-92",
+    "source": "final_p1",
+    "number": 92,
+    "type": "mcq",
+    "question": "What is the defining characteristic of the Von Neumann architecture in terms of memory organization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It separates data memory and instruction memory into two independent memory banks."
+      },
+      {
+        "id": "B",
+        "text": "It uses a single shared memory system where instructions, data, and I/O devices occupy the same address space."
+      },
+      {
+        "id": "C",
+        "text": "It implements a port-mapped addressing scheme with overlapping address ranges."
+      },
+      {
+        "id": "D",
+        "text": "It relies on wireless connections between the CPU and memory components."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-93",
+    "source": "final_p1",
+    "number": 93,
+    "type": "mcq",
+    "question": "In the Harvard Architecture, RAM and ROM are described as having the \"same address range\" (e.g., both might have an address 100). How does this affect the CPU?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CPU causes a system failure due to an address conflict between memories."
+      },
+      {
+        "id": "B",
+        "text": "The CPU relies on the specific software instruction being executed to determine which memory to access."
+      },
+      {
+        "id": "C",
+        "text": "The CPU arbitrarily selects one of the available memories to access."
+      },
+      {
+        "id": "D",
+        "text": "The CPU combines the contents of both memories into a single data output."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-94",
+    "source": "final_p1",
+    "number": 94,
+    "type": "mcq",
+    "question": "In a Von-Neumann system, if RAM uses addresses 0-255 and ROM uses 256- 511, what is this configuration called?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port Mapped"
+      },
+      {
+        "id": "B",
+        "text": "Memory Mapped"
+      },
+      {
+        "id": "C",
+        "text": "Cloud Storage"
+      },
+      {
+        "id": "D",
+        "text": "Virtual Memory"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-95",
+    "source": "final_p1",
+    "number": 95,
+    "type": "mcq",
+    "question": "Why is the Harvard Architecture generally capable of higher performance and easier pipelining compared to Von-Neumann?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it runs at a higher voltage."
+      },
+      {
+        "id": "B",
+        "text": "Because it uses a single shared bus that streamlines the data flow."
+      },
+      {
+        "id": "C",
+        "text": "Because it has separate buses for Instructions and Data, allowing simultaneous access to both."
+      },
+      {
+        "id": "D",
+        "text": "Because it is cheaper to manufacture."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p1-96",
+    "source": "final_p1",
+    "number": 96,
+    "type": "mcq",
+    "question": "If your project has a very strict budget and minimizing hardware cost (fewer cables/pins) is the #1 priority, which architecture should you choose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Harvard Architecture"
+      },
+      {
+        "id": "B",
+        "text": "Von-Neumann Architecture"
+      },
+      {
+        "id": "C",
+        "text": "Dual-Core Architecture"
+      },
+      {
+        "id": "D",
+        "text": "Pipeline Architecture"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-97",
+    "source": "final_p1",
+    "number": 97,
+    "type": "mcq",
+    "question": "What is the primary cause of the \"waste of time\" described in the Von- Neumann architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CPU must wait for the single bus to become free."
+      },
+      {
+        "id": "B",
+        "text": "The cables are too long, causing signal delay."
+      },
+      {
+        "id": "C",
+        "text": "The CPU is constantly modifying its own code."
+      },
+      {
+        "id": "D",
+        "text": "The ROM is physically disconnected from the system."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-98",
+    "source": "final_p1",
+    "number": 98,
+    "type": "mcq",
+    "question": "\"No memory alignment problems\" as a benefit of Harvard Architecture. Why is this the case?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the separate memory systems reduce conflicts between code and data storage."
+      },
+      {
+        "id": "B",
+        "text": "Because the memory is arranged in a circle."
+      },
+      {
+        "id": "C",
+        "text": "Because Von-Neumann systems do not use memory addresses."
+      },
+      {
+        "id": "D",
+        "text": "Because it uses a single shared bus for everything."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p1-99",
+    "source": "final_p1",
+    "number": 99,
+    "type": "mcq",
+    "question": "Why does the Harvard Architecture require \"more cables\" on the motherboard or chip?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the cables must be thicker to handle the speed."
+      },
+      {
+        "id": "B",
+        "text": "Because it needs two independent sets of buses for parallel connection."
+      },
+      {
+        "id": "C",
+        "text": "To connect the external power supply."
+      },
+      {
+        "id": "D",
+        "text": "Because it uses older, inefficient technology."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p1-100",
+    "source": "final_p1",
+    "number": 100,
+    "type": "mcq",
+    "question": "In a Von Neumann system, which feature enables the use of self-modifying code?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The high implementation cost of the system allows advanced processing features."
+      },
+      {
+        "id": "B",
+        "text": "The system does not distinguish between an instruction and a data value, as they share the same memory and bus."
+      },
+      {
+        "id": "C",
+        "text": "The physical separation of RAM and ROM prevents unintended code modification."
+      },
+      {
+        "id": "D",
+        "text": "The CPU pipeline automatically alters program instructions during execution."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-1",
+    "source": "final_p2",
+    "number": 1,
+    "type": "mcq",
+    "question": "In a Harvard Architecture system configured for Memory-Mapped I/O, which assembly instructions does the CPU use to communicate with Input/Output peripherals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IN and OUT"
+      },
+      {
+        "id": "B",
+        "text": "READ and WRITE"
+      },
+      {
+        "id": "C",
+        "text": "LOAD and STORE"
+      },
+      {
+        "id": "D",
+        "text": "PUSH and POP"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-2",
+    "source": "final_p2",
+    "number": 2,
+    "type": "mcq",
+    "question": "If you are a programmer prioritizing \"Ease of Development\" (writing in C Language) over maximum hardware speed, which connection method/bus would you choose according to the \"2nd architecture\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bus no. 3 (Port-Mapped)"
+      },
+      {
+        "id": "B",
+        "text": "Bus no. 1 (Memory-Mapped)"
+      },
+      {
+        "id": "C",
+        "text": "The ROM Bus"
+      },
+      {
+        "id": "D",
+        "text": "A Wireless connection"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-3",
+    "source": "final_p2",
+    "number": 3,
+    "type": "mcq",
+    "question": "In a Port-Mapped architecture, how does the CPU distinguish between accessing RAM address 0x100 and I/O Port address 0x100?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It uses the specific instruction type to activate the correct bus."
+      },
+      {
+        "id": "B",
+        "text": "It checks if the address is odd or even."
+      },
+      {
+        "id": "C",
+        "text": "It cannot distinguish them; this causes a system crash."
+      },
+      {
+        "id": "D",
+        "text": "It relies on the compiler to change the address number."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-4",
+    "source": "final_p2",
+    "number": 4,
+    "type": "mcq",
+    "question": "What is the major performance advantage of using Port-Mapped I/O (Bus set no. 3) compared to Memory-Mapped?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows the CPU to access RAM, ROM, and I/O simultaneously."
+      },
+      {
+        "id": "B",
+        "text": "It allows the use of Python scripts."
+      },
+      {
+        "id": "C",
+        "text": "It reduces the number of pins on the chip."
+      },
+      {
+        "id": "D",
+        "text": "It merges RAM and I/O into one memory."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-5",
+    "source": "final_p2",
+    "number": 5,
+    "type": "mcq",
+    "question": "When using Memory-Mapped I/O, how are the addresses of RAM and I/O organized?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They share the exact same address numbers."
+      },
+      {
+        "id": "B",
+        "text": "I/O does not have addresses."
+      },
+      {
+        "id": "C",
+        "text": "They are mapped to different ranges within the same map."
+      },
+      {
+        "id": "D",
+        "text": "RAM takes all addresses, and I/O uses a separate cable."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-6",
+    "source": "final_p2",
+    "number": 6,
+    "type": "mcq",
+    "question": "In \"Memory-Mapped\" I/O connection, which assembly instructions does the CPU use to communicate with I/O devices?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Read & Write"
+      },
+      {
+        "id": "B",
+        "text": "In & Out"
+      },
+      {
+        "id": "C",
+        "text": "Load & Store"
+      },
+      {
+        "id": "D",
+        "text": "Push & Pop"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-7",
+    "source": "final_p2",
+    "number": 7,
+    "type": "mcq",
+    "question": "In a \"Port-Mapped\" system, how does the CPU know which component (RAM, ROM, or I/O) it is addressing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By the specific address number only."
+      },
+      {
+        "id": "B",
+        "text": "By the specific assembly instruction used."
+      },
+      {
+        "id": "C",
+        "text": "By checking the device temperature."
+      },
+      {
+        "id": "D",
+        "text": "It relies on the operating system to guess."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-8",
+    "source": "final_p2",
+    "number": 8,
+    "type": "mcq",
+    "question": "In a Von Neumann PC, once the Operating System is loaded, the processor interacts almost exclusively with the RAM. What does this imply about the nature of \"data\" and \"instructions\" in this architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They must be stored in separate physical chips to avoid corruption."
+      },
+      {
+        "id": "B",
+        "text": "They share the same communication pathway, potentially creating a bottleneck."
+      },
+      {
+        "id": "C",
+        "text": "The processor cannot distinguish between a command and a piece of data."
+      },
+      {
+        "id": "D",
+        "text": "The Hard Disk becomes the primary Fetch source for the Pipelining process."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-9",
+    "source": "final_p2",
+    "number": 9,
+    "type": "mcq",
+    "question": "Consider a processor with a 3-stage pipeline (Fetch, Decode, Execute). During the 3rd clock cycle of a program's execution, what is the status of the first three instructions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Instruction 1 is fetching, Instruction 2 is decoding, Instruction 3 is executing."
+      },
+      {
+        "id": "B",
+        "text": "Instruction 1 is executing, Instruction 2 is decoding, Instruction 3 is fetching."
+      },
+      {
+        "id": "C",
+        "text": "All three instructions are being executed simultaneously to save time."
+      },
+      {
+        "id": "D",
+        "text": "The CPU is idle while waiting for the first instruction to finish the full cycle."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-10",
+    "source": "final_p2",
+    "number": 10,
+    "type": "mcq",
+    "question": "If a specific architecture \"cannot support pipelining\", what is the most likely consequence for its performance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CPU will produce more heat."
+      },
+      {
+        "id": "B",
+        "text": "The bus width will automatically decrease to 32-bits."
+      },
+      {
+        "id": "C",
+        "text": "The CPU will be unable to load the Operating System from the Hard Disk."
+      },
+      {
+        "id": "D",
+        "text": "Each instruction must completely finish all stages before the next one begins."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-11",
+    "source": "final_p2",
+    "number": 11,
+    "type": "mcq",
+    "question": "Why is Harvard architecture more \"suitable\" for Microcontrollers dealing with ROM and Flash?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flash memory requires two wires while RAM requires only one."
+      },
+      {
+        "id": "B",
+        "text": "Harvard allows simultaneous access to permanent program code and temporary data."
+      },
+      {
+        "id": "C",
+        "text": "ROM cannot be used in a Von Neumann architecture."
+      },
+      {
+        "id": "D",
+        "text": "Flash memory is too large to fit on a PC motherboard."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-12",
+    "source": "final_p2",
+    "number": 12,
+    "type": "mcq",
+    "question": "A system encounters a \"huge number of wires\" (64 × 2) due to its high bit-count. This is a critique of which architectural choice in a large-scale system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using separate buses for data and instructions in a large-scale system."
+      },
+      {
+        "id": "B",
+        "text": "Using Instruction Pipelining in a 64-bit PC."
+      },
+      {
+        "id": "C",
+        "text": "Using a single bus (Von Neumann) for both RAM and I/O."
+      },
+      {
+        "id": "D",
+        "text": "Loading the OS into the RAM instead of the ROM."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-13",
+    "source": "final_p2",
+    "number": 13,
+    "type": "mcq",
+    "question": "Based on the logic of the text, if we moved a PC's processor and RAM onto a single, microscopic silicon chip (System on Chip), which architecture would become more attractive?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Von Neumann, because the scale is now small."
+      },
+      {
+        "id": "B",
+        "text": "Von Neumann, because Flash memory is only used in large PCs."
+      },
+      {
+        "id": "C",
+        "text": "Neither, as pipelining only works on large motherboards."
+      },
+      {
+        "id": "D",
+        "text": "Harvard, because the \"space between components\" issues are resolved."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-14",
+    "source": "final_p2",
+    "number": 14,
+    "type": "mcq",
+    "question": "A developer writes a program strictly in C-Language without using any special assembly commands. When compiled, the code accesses I/O devices using standard pointer operations. Which I/O connection method is this system using?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port-Mapped I/O, because C is a high-level language."
+      },
+      {
+        "id": "B",
+        "text": "Memory-Mapped I/O, because the compiler converts C code into Load & Store instructions."
+      },
+      {
+        "id": "C",
+        "text": "Port-Mapped I/O, because it requires a specific range of addresses."
+      },
+      {
+        "id": "D",
+        "text": "The \"2nd Way\" using Bus Set 3."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-15",
+    "source": "final_p2",
+    "number": 15,
+    "type": "mcq",
+    "question": "Consider a system where the RAM has addresses 0x0000 to 0xFFFF. In a Memory-Mapped design, if you add an I/O device, what happens to the available memory space?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The memory space doubles."
+      },
+      {
+        "id": "B",
+        "text": "Nothing changes; RAM and I/O overlap perfectly."
+      },
+      {
+        "id": "C",
+        "text": "The I/O device gets a totally separate address 0x0000."
+      },
+      {
+        "id": "D",
+        "text": "You must sacrifice a portion of the RAM addresses to map the I/O device."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-16",
+    "source": "final_p2",
+    "number": 16,
+    "type": "mcq",
+    "question": "You are designing a high-speed controller that must read a sensor value (Input) and update a variable in memory (RAM) in the exact same clock cycle. Which architecture must you choose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memory-Mapped, because it uses a single bus for simplicity."
+      },
+      {
+        "id": "B",
+        "text": "Memory-Mapped, because Load and Store are faster than In and Out."
+      },
+      {
+        "id": "C",
+        "text": "Von Neumann, because it is faster than Harvard."
+      },
+      {
+        "id": "D",
+        "text": "Port-Mapped, because it uses different bus sets for RAM and I/O."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-17",
+    "source": "final_p2",
+    "number": 17,
+    "type": "mcq",
+    "question": "If you were designing a system where minimizing the physical number of traces/wires on the PCB motherboard is the critical constraint , which architecture is the logical choice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Von Neumann Architecture"
+      },
+      {
+        "id": "B",
+        "text": "Harvard Architecture"
+      },
+      {
+        "id": "C",
+        "text": "Modified Harvard Architecture"
+      },
+      {
+        "id": "D",
+        "text": "Dual-Port Architecture"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-18",
+    "source": "final_p2",
+    "number": 18,
+    "type": "mcq",
+    "question": "In a pipelined processor, while the CPU is decoding the first instruction, what is typically happening to the second instruction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is being Executed."
+      },
+      {
+        "id": "B",
+        "text": "It is being Fetched."
+      },
+      {
+        "id": "C",
+        "text": "It is waiting in the Hard Disk."
+      },
+      {
+        "id": "D",
+        "text": "It is being erased."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-19",
+    "source": "final_p2",
+    "number": 19,
+    "type": "mcq",
+    "question": "You have a microcontroller rated at 12 MIPS. If this microcontroller is a standard RISC machine, what can you infer about its Clock Speed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is running at exactly 1 MHz."
+      },
+      {
+        "id": "B",
+        "text": "It is likely running close to 12 MHz."
+      },
+      {
+        "id": "C",
+        "text": "It must be running at 24 MHz because of the Von Neumann bottleneck."
+      },
+      {
+        "id": "D",
+        "text": "It is running at 4 MHz because there are 3 stages (F, D, E)."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-20",
+    "source": "final_p2",
+    "number": 20,
+    "type": "mcq",
+    "question": "A system architect is debugging a processor design. They notice that every time the CPU attempts to \"Fetch\" a new instruction while simultaneously writing a result to memory, the system pauses (stalls). What is the most likely architectural cause of this bottleneck?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system is using Harvard Architecture, which requires two separate cycles for safety."
+      },
+      {
+        "id": "B",
+        "text": "The system is using a Von Neumann, creating a resource conflict between the code and data."
+      },
+      {
+        "id": "C",
+        "text": "The processor is running in RISC mode, which is too fast for the memory."
+      },
+      {
+        "id": "D",
+        "text": "The pipeline depth is too short."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-21",
+    "source": "final_p2",
+    "number": 21,
+    "type": "mcq",
+    "question": "Given two microcontrollers running at the exact same clock frequency (e.g., 16 MHz), one utilizing RISC architecture and the other CISC. Which architecture achieves a higher MIPS rating, and what is the primary reason?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RISC; because it supports pipelining, allowing most instructions to execute in a single clock cycle."
+      },
+      {
+        "id": "B",
+        "text": "CISC; because its instructions naturally require multiple clock cycles to complete."
+      },
+      {
+        "id": "C",
+        "text": "CISC; because it eliminates the need to access RAM during execution."
+      },
+      {
+        "id": "D",
+        "text": "RISC; because it uses Von Neumann architecture which is inherently faster for calculation."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-22",
+    "source": "final_p2",
+    "number": 22,
+    "type": "mcq",
+    "question": "A developer is writing a program to add two large numbers (e.g., 50,000 + 50,000) which requires 16 bits of data. If they use an \"8-bit Microcontroller\" as defined in the text, how will the Arithmetic Logic Unit (ALU) handle this operation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It will execute the addition in a single cycle because the clock speed is fast enough."
+      },
+      {
+        "id": "B",
+        "text": "It will automatically upgrade the bus width to 16-bits for this instruction."
+      },
+      {
+        "id": "C",
+        "text": "It must divide the operation into multiple steps."
+      },
+      {
+        "id": "D",
+        "text": "It will fail because an 8-bit microcontroller cannot handle numbers larger than 255."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-23",
+    "source": "final_p2",
+    "number": 23,
+    "type": "mcq",
+    "question": "If T (Period) represents the time of one cycle, and the system clock frequency is 8 MHz, how is T calculated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "T = 8,000,000 seconds"
+      },
+      {
+        "id": "B",
+        "text": "T = 1 / 8 seconds"
+      },
+      {
+        "id": "C",
+        "text": "T = 1 / 8,000,000 seconds"
+      },
+      {
+        "id": "D",
+        "text": "T = 8 × 10⁶ seconds"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-24",
+    "source": "final_p2",
+    "number": 24,
+    "type": "mcq",
+    "question": "If you have a 64-bit microcontroller, what is the size of the two operands that enter the ALU?",
+    "options": [
+      {
+        "id": "A",
+        "text": "One is 32-bit and the other is 32-bit."
+      },
+      {
+        "id": "B",
+        "text": "Each operand is 8-bit."
+      },
+      {
+        "id": "C",
+        "text": "Each operand is 64-bit."
+      },
+      {
+        "id": "D",
+        "text": "The operand size depends on the clock speed."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-25",
+    "source": "final_p2",
+    "number": 25,
+    "type": "mcq",
+    "question": "A student uses MATLAB to model a processor's behavior. Which method of clock generation ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circuit Generation."
+      },
+      {
+        "id": "B",
+        "text": "Simulation."
+      },
+      {
+        "id": "C",
+        "text": "Code Generation (Arduino)."
+      },
+      {
+        "id": "D",
+        "text": "Manual Logic Gate construction."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-26",
+    "source": "final_p2",
+    "number": 26,
+    "type": "mcq",
+    "question": "In a RISC architecture where \"one instruction takes one cycle,\" if you increase the Clock Frequency from 8 MHz to 16 MHz, what happens to the execution speed (MIPS)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It doubles."
+      },
+      {
+        "id": "B",
+        "text": "It stays the same."
+      },
+      {
+        "id": "C",
+        "text": "It decreases by half."
+      },
+      {
+        "id": "D",
+        "text": "It becomes unstable."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-27",
+    "source": "final_p2",
+    "number": 27,
+    "type": "mcq",
+    "question": "In the acronym MIPS (Millions Instructions Per Second), what type of \"Instructions\" are being counted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "C++ lines of code."
+      },
+      {
+        "id": "B",
+        "text": "High-level language statements."
+      },
+      {
+        "id": "C",
+        "text": "Assembly instructions."
+      },
+      {
+        "id": "D",
+        "text": "User mouse clicks."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-28",
+    "source": "final_p2",
+    "number": 28,
+    "type": "mcq",
+    "question": "You are designing a toy controller that will be used inside a heavy industrial drill. The device will experience extreme physical shaking and vibration constantly. Based on the \"Noise Immunity (Vibration)\" spec, which clock source is the safest choice to avoid mechanical failure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RC Oscillator"
+      },
+      {
+        "id": "B",
+        "text": "Ceramic Resonator"
+      },
+      {
+        "id": "C",
+        "text": "Crystal Oscillator"
+      },
+      {
+        "id": "D",
+        "text": "Neither; all oscillators fail under vibration."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-29",
+    "source": "final_p2",
+    "number": 29,
+    "type": "mcq",
+    "question": "A USB communication module requires the clock signal to stabilize extremely quickly (lowest settling time) as soon as the device powers on to prevent connection errors. Which component offers the fastest startup performance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RC Oscillator"
+      },
+      {
+        "id": "B",
+        "text": "Ceramic Resonator"
+      },
+      {
+        "id": "C",
+        "text": "Crystal Oscillator"
+      },
+      {
+        "id": "D",
+        "text": "Neither."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-30",
+    "source": "final_p2",
+    "number": 30,
+    "type": "mcq",
+    "question": "Why are Ceramic Resonators and Crystal Oscillators classified as \"Mechanical\", unlike the \"Electrical\" RC Oscillator?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because they rely on magnetic field interactions inside conductive materials to generate oscillations."
+      },
+      {
+        "id": "B",
+        "text": "Because they function by physically vibrating a natural material to generate the wave."
+      },
+      {
+        "id": "C",
+        "text": "Because they generate oscillations using only electrical resistance and capacitance effects."
+      },
+      {
+        "id": "D",
+        "text": "Because they depend on purely electronic charge movement without any physical resonance."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-31",
+    "source": "final_p2",
+    "number": 31,
+    "type": "mcq",
+    "question": "A satellite navigation system requires precise timing that is unaffected by the extreme heat and cold of space (Temperature Immunity). Which component should be immediately disqualified?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Crystal Oscillator"
+      },
+      {
+        "id": "B",
+        "text": "Ceramic Resonator"
+      },
+      {
+        "id": "C",
+        "text": "RC Oscillator"
+      },
+      {
+        "id": "D",
+        "text": "Both A and B"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-32",
+    "source": "final_p2",
+    "number": 32,
+    "type": "mcq",
+    "question": "An engineer notices that their clock signal becomes unstable and frequency drifts whenever the device is placed near a strong magnet or heavy electrical machinery (high EMI). What is the most likely culprit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The system is using a Crystal Oscillator."
+      },
+      {
+        "id": "B",
+        "text": "The system is using a Ceramic Resonator."
+      },
+      {
+        "id": "C",
+        "text": "The system is using an RC Oscillator."
+      },
+      {
+        "id": "D",
+        "text": "The system is using a 555 timer with a Crystal."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-33",
+    "source": "final_p2",
+    "number": 33,
+    "type": "mcq",
+    "question": "What is the relationship between \"Settling Time\" and \"Performance\" according to the Crystal Oscillator description?",
+    "options": [
+      {
+        "id": "A",
+        "text": "As performance increases , the time it takes to stabilize increases."
+      },
+      {
+        "id": "B",
+        "text": "As performance increases , the time it takes to stabilize decreases."
+      },
+      {
+        "id": "C",
+        "text": "Settling time is constant across all devices."
+      },
+      {
+        "id": "D",
+        "text": "High accuracy requires a long settling time to \"warm up.\""
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-34",
+    "source": "final_p2",
+    "number": 34,
+    "type": "mcq",
+    "question": "Which of the following components are primarily used in an RC Oscillator feedback network to generate a clock signal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inductors and Capacitors"
+      },
+      {
+        "id": "B",
+        "text": "Resistors and Capacitors"
+      },
+      {
+        "id": "C",
+        "text": "Crystals and Resistors"
+      },
+      {
+        "id": "D",
+        "text": "Ceramic Resonators and Amplifiers"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-35",
+    "source": "final_p2",
+    "number": 35,
+    "type": "mcq",
+    "question": "The Embedded Systems commonly use a Harvard CPU internally (separate buses for Code and Data), yet I/O devices are \"Memory Mapped\" into the Data space. What is the practical consequence of this design for a programmer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The programmer must use special IN and OUT assembly instructions to talk to the GPIO."
+      },
+      {
+        "id": "B",
+        "text": "The programmer treats I/O registers exactly like variables in RAM, using Load and Store."
+      },
+      {
+        "id": "C",
+        "text": "The CPU must stop fetching code instructions whenever it communicates with an I/O device."
+      },
+      {
+        "id": "D",
+        "text": "The I/O devices are mapped into the \"Program Memory\" space, making them read-only."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-36",
+    "source": "final_p2",
+    "number": 36,
+    "type": "mcq",
+    "question": "A digital designer is verifying the System Bus connection. The CPU attempts to send a command to a GPIO peripheral. In this specific transaction, how are the roles defined?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CPU is Slave; GPIO is Master."
+      },
+      {
+        "id": "B",
+        "text": "CPU is Master; System Bus is Master; GPIO is Master."
+      },
+      {
+        "id": "C",
+        "text": "CPU is Master ; GPIO is Slave."
+      },
+      {
+        "id": "D",
+        "text": "GPIO is Master ; CPU is Slave."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-37",
+    "source": "final_p2",
+    "number": 37,
+    "type": "mcq",
+    "question": "A GPIO peripheral has a designated Base Address of 0x4000. The register capable of toggling the output pin is located at Offset 0x04. What address must the CPU place on the address bus to write to this specific register?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0x4004"
+      },
+      {
+        "id": "B",
+        "text": "0x0004"
+      },
+      {
+        "id": "C",
+        "text": "0x4000"
+      },
+      {
+        "id": "D",
+        "text": "0x3FFC"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-38",
+    "source": "final_p2",
+    "number": 38,
+    "type": "mcq",
+    "question": "If a system were using \"Port Mapped\" I/O instead of the \"Memory Mapped\" method , how would the CPU's interaction with the I/O change?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CPU would require distinct instructions separate from the RAM."
+      },
+      {
+        "id": "B",
+        "text": "The CPU would use the same Load / Store instructions but with different addresses."
+      },
+      {
+        "id": "C",
+        "text": "The I/O devices would sit inside the ROM address space instead of the RAM space."
+      },
+      {
+        "id": "D",
+        "text": "The CPU would need to be a Von Neumann architecture."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-39",
+    "source": "final_p2",
+    "number": 39,
+    "type": "mcq",
+    "question": "In a bus architecture connecting a CPU to a GPIO peripheral, which role does the CPU's port play?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Slave Port ."
+      },
+      {
+        "id": "B",
+        "text": "Master Port."
+      },
+      {
+        "id": "C",
+        "text": "Neutral Port."
+      },
+      {
+        "id": "D",
+        "text": "Router Port."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-40",
+    "source": "final_p2",
+    "number": 40,
+    "type": "mcq",
+    "question": "In an embedded system with a Harvard CPU, where do I/O peripherals typically appear?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inside the program address space (Flash/ROM)."
+      },
+      {
+        "id": "B",
+        "text": "On a dedicated I/O bus separate from memory."
+      },
+      {
+        "id": "C",
+        "text": "Inside the data address space (RAM space)."
+      },
+      {
+        "id": "D",
+        "text": "Within the CPU registers."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-41",
+    "source": "final_p2",
+    "number": 41,
+    "type": "mcq",
+    "question": "If the CPU is the \"Master to AXI\" and the System Bus interface is the \"Slave to AXI,\" who is responsible for ensuring the data reaches the correct destination?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CPU (Master), because it schedules all internal transfers and directly forwards data to the target peripheral."
+      },
+      {
+        "id": "B",
+        "text": "The AXI Slave port, because it decodes the address and routes the traffic to the correct peripheral."
+      },
+      {
+        "id": "C",
+        "text": "The GPIO Peripheral, because it interprets bus signals and redirects transactions across the system fabric."
+      },
+      {
+        "id": "D",
+        "text": "The Programmer, because they define the memory map and manually control data routing during execution."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-42",
+    "source": "final_p2",
+    "number": 42,
+    "type": "mcq",
+    "question": "Consider a scenario where two different GPIO ports (Port A and Port B) are connected to the same System Bus. Port A has Base 0x1000. Port B has Base 0x2000. Both have a Direction Register (DR) at Offset 0x00. How does the CPU distinguish between writing to Port A's DR versus Port B's DR?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It cannot distinguish; writing to Offset 0x00 writes to both."
+      },
+      {
+        "id": "B",
+        "text": "By the Base Address portion."
+      },
+      {
+        "id": "C",
+        "text": "By sending a special \"Select Port\" command before the \"Write Data\" command."
+      },
+      {
+        "id": "D",
+        "text": "By using different bus wires for each port."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-43",
+    "source": "final_p2",
+    "number": 43,
+    "type": "mcq",
+    "question": "A developer is reading the TRM for a new microcontroller. They find the \"Memory Map\" section, but it only lists the Base Address for the GPIO Port A (0x4000) and its Size (0x400). Why does the Memory Map section not typically list the specific address of the \"Direction Register\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the specific register addresses are calculated using Offsets found in the detailed \"GPIO Peripheral\" section."
+      },
+      {
+        "id": "B",
+        "text": "Because the Direction Register is located in the CPU, not the peripheral."
+      },
+      {
+        "id": "C",
+        "text": "Because the Direction Register address is dynamic and changes every time the device restarts."
+      },
+      {
+        "id": "D",
+        "text": "Because the TRM is missing critical information."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-44",
+    "source": "final_p2",
+    "number": 44,
+    "type": "mcq",
+    "question": "What is the function of the registers within a peripheral?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To execute the physical hardware process directly."
+      },
+      {
+        "id": "B",
+        "text": "To store the Technical Reference Manual (TRM)."
+      },
+      {
+        "id": "C",
+        "text": "To allow the software to control the hardware by writing 0 or 1."
+      },
+      {
+        "id": "D",
+        "text": "To generate the clock signal for the bus."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-45",
+    "source": "final_p2",
+    "number": 45,
+    "type": "mcq",
+    "question": "What crucial information does the Embedded System Engineer look up in the TRM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The price of the microcontroller."
+      },
+      {
+        "id": "B",
+        "text": "The bus addresses and GPIO register offsets."
+      },
+      {
+        "id": "C",
+        "text": "The source code for the operating system."
+      },
+      {
+        "id": "D",
+        "text": "The physical dimensions of the chip."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-46",
+    "source": "final_p2",
+    "number": 46,
+    "type": "mcq",
+    "question": "In the TRM sections described, what does \"Section 1: Memory Mapped\" typically contain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The specific offsets for the Direction Register only."
+      },
+      {
+        "id": "B",
+        "text": "The power consumption metrics."
+      },
+      {
+        "id": "C",
+        "text": "The C++ code for the drivers."
+      },
+      {
+        "id": "D",
+        "text": "The base address and size for all peripherals."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-47",
+    "source": "final_p2",
+    "number": 47,
+    "type": "mcq",
+    "question": "When connecting a CPU to a system bus of type AXI, how should the CPU interface be configured?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Master to AXI"
+      },
+      {
+        "id": "B",
+        "text": "Slave to AXI"
+      },
+      {
+        "id": "C",
+        "text": "Master to Peripheral"
+      },
+      {
+        "id": "D",
+        "text": "Slave to Peripheral"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-48",
+    "source": "final_p2",
+    "number": 48,
+    "type": "mcq",
+    "question": "A System Integrator is trying to connect a generic \"M1\" Master to a \"GPIO\" Slave. The Master speaks \"Protocol X\" and the Slave speaks \"Protocol AHP\". If they connect them directly wire-to-wire, communication fails. According to the text, what architectural component is missing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A Bus Matrix"
+      },
+      {
+        "id": "B",
+        "text": "An AXI Interconnect"
+      },
+      {
+        "id": "C",
+        "text": "A Bridge"
+      },
+      {
+        "id": "D",
+        "text": "A second CPU to translate"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-49",
+    "source": "final_p2",
+    "number": 49,
+    "type": "mcq",
+    "question": "The CPU core is internally Harvard (separate buses for code/data), yet the programmer sees a Memory Mapped (Von Neumann-style) unified address space. Which hardware component is responsible for creating this \"illusion\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The ALU"
+      },
+      {
+        "id": "B",
+        "text": "The Bus Matrix"
+      },
+      {
+        "id": "C",
+        "text": "The GPIO Slave"
+      },
+      {
+        "id": "D",
+        "text": "The Bridge"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-50",
+    "source": "final_p2",
+    "number": 50,
+    "type": "mcq",
+    "question": "In a complex AXI system, the text states that the CPU, DSP, and GPU are all \"Masters\". If the AXI Interconnect (the bus itself) sits in the middle, how does the Interconnect define its relationship to these Masters?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Interconnect acts as a Master to them."
+      },
+      {
+        "id": "B",
+        "text": "The Interconnect provides \"Slave Interfaces\" to accept commands from the CPU, DSP, and GPU."
+      },
+      {
+        "id": "C",
+        "text": "The Interconnect selectively processes requests and services only one processing unit at a time."
+      },
+      {
+        "id": "D",
+        "text": "The Interconnect converts all Masters into Slaves."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-51",
+    "source": "final_p2",
+    "number": 51,
+    "type": "mcq",
+    "question": "A designer is writing Verilog code for a System Bus. They decide to add a new GPU (Master) to the system. According to the logic in the text, what must be added to the Bus Interconnect design to support this new GPU?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A new Slave Interface on the bus to receive transactions from the GPU"
+      },
+      {
+        "id": "B",
+        "text": "A new Master Port on the bus to control the GPU"
+      },
+      {
+        "id": "C",
+        "text": "A new Bridge to convert the GPU to a CPU"
+      },
+      {
+        "id": "D",
+        "text": "Nothing; the bus automatically detects new hardware"
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-52",
+    "source": "final_p2",
+    "number": 52,
+    "type": "mcq",
+    "question": "What component is required if a slave peripheral uses an interface type (e.g., AHP) that is different from the system bus master's interface?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A Bus Matrix"
+      },
+      {
+        "id": "B",
+        "text": "A Bridge"
+      },
+      {
+        "id": "C",
+        "text": "A DSP"
+      },
+      {
+        "id": "D",
+        "text": "An Arbiter"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-53",
+    "source": "final_p2",
+    "number": 53,
+    "type": "mcq",
+    "question": "An Interrupt \"temporarily halts the normal execution.\" If the processor is in the middle of a mathematical calculation when an interrupt occurs, what happens after the special routine (ISR) is finished?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The processor restarts the mathematical calculation from the very beginning."
+      },
+      {
+        "id": "B",
+        "text": "The processor abandons the calculation and moves to the next task in the main program."
+      },
+      {
+        "id": "C",
+        "text": "The processor returns to the main program and resumes the calculation."
+      },
+      {
+        "id": "D",
+        "text": "The processor shuts down to prevent data corruption."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-54",
+    "source": "final_p2",
+    "number": 54,
+    "type": "mcq",
+    "question": "A critical safety sensor in a factory must trigger an alarm immediately if a machine overheats. Why is \"Polling\" considered risky for this specific \"high-priority task\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polling depends on periodic software checks, which are inherently slower than direct hardware-driven event handling."
+      },
+      {
+        "id": "B",
+        "text": "Polling, the processor might not check the sensor status in time to prevent an accident."
+      },
+      {
+        "id": "C",
+        "text": "Polling interrupts the main program too frequently."
+      },
+      {
+        "id": "D",
+        "text": "Polling cannot read data from sensors, only from serial ports."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-55",
+    "source": "final_p2",
+    "number": 55,
+    "type": "mcq",
+    "question": "A battery-powered embedded system needs to conserve energy. Why would an engineer prefer using an \"Interrupt\" over \"Polling\" to detect a button press that happens only once a day?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because Polling requires the CPU to \"continuously check\" the button status in a loop, wasting battery power."
+      },
+      {
+        "id": "B",
+        "text": "Because interrupts are handled entirely in software and reduce the need for continuous hardware monitoring."
+      },
+      {
+        "id": "C",
+        "text": "Because Polling cannot detect high-priority tasks."
+      },
+      {
+        "id": "D",
+        "text": "Because Interrupts allow the device to stop the current operation permanently."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-56",
+    "source": "final_p2",
+    "number": 56,
+    "type": "mcq",
+    "question": "What is the name of the special routine that the processor executes when an interrupt occurs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polling Loop"
+      },
+      {
+        "id": "B",
+        "text": "Main Program"
+      },
+      {
+        "id": "C",
+        "text": "Interrupt Service Routine"
+      },
+      {
+        "id": "D",
+        "text": "Status Register"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-57",
+    "source": "final_p2",
+    "number": 57,
+    "type": "mcq",
+    "question": "How does \"Polling\" determine if a device needs attention?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The device sends a high-priority signal to the CPU."
+      },
+      {
+        "id": "B",
+        "text": "The device forces the CPU to stop its current operation immediately."
+      },
+      {
+        "id": "C",
+        "text": "The processor waits for a user to manually input a command."
+      },
+      {
+        "id": "D",
+        "text": "The processor continuously checks the status of the device in a loop."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-58",
+    "source": "final_p2",
+    "number": 58,
+    "type": "mcq",
+    "question": "In the \"Interrupt Processing Flow,\" step 4 involves \"Context Saving\" (registers and flags). If a poorly written ISR skips this step, but executes the rest of the routine perfectly, what is the most likely outcome when the CPU returns to the main program?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The main program will run faster because it skipped a step."
+      },
+      {
+        "id": "B",
+        "text": "The main program may crash or produce incorrect calculation results."
+      },
+      {
+        "id": "C",
+        "text": "The Interrupt Vector Table will point to the wrong address."
+      },
+      {
+        "id": "D",
+        "text": "The hardware sensor will stop generating signals."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-59",
+    "source": "final_p2",
+    "number": 59,
+    "type": "mcq",
+    "question": "Compare \"Software Interrupts\" and \"Internal Interrupts\". Which scenario best fits a \"Software Interrupt\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The voltage drops below 3.3V, triggering a Brown-out reset."
+      },
+      {
+        "id": "B",
+        "text": "A wire is disconnected from the GPIO pin."
+      },
+      {
+        "id": "C",
+        "text": "A timer hardware module reaches its maximum count (Overflow)."
+      },
+      {
+        "id": "D",
+        "text": "The user's code intentionally executes a specific command to request a service from the OS."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-60",
+    "source": "final_p2",
+    "number": 60,
+    "type": "mcq",
+    "question": "If an \"External Interrupt\" (e.g., from a sensor) occurs exactly while the CPU is executing Step 4 (Context Saving) of a previous interrupt, what typically happens (assuming standard priority logic)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CPU must finish the critical context-saving."
+      },
+      {
+        "id": "B",
+        "text": "The CPU immediately abandons saving context and jumps to the new interrupt."
+      },
+      {
+        "id": "C",
+        "text": "The new interrupt is deleted and ignored forever."
+      },
+      {
+        "id": "D",
+        "text": "The Vector Table is erased."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-61",
+    "source": "final_p2",
+    "number": 61,
+    "type": "mcq",
+    "question": "A battery-powered system is designed to detect a rare intrusion event that happens perhaps once a year. Why is an Interrupt-based design superior to Polling in terms of \"Efficiency\" for this specific scenario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because interrupts allow the CPU to sleep and conserve battery until the event occurs."
+      },
+      {
+        "id": "B",
+        "text": "Because polling requires the CPU to increase its clock speed to catch the event."
+      },
+      {
+        "id": "C",
+        "text": "Because interrupts generate more power for the battery when the signal arrives."
+      },
+      {
+        "id": "D",
+        "text": "Because polling stops the intrusion sensor from functioning correctly in the dark."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-62",
+    "source": "final_p2",
+    "number": 62,
+    "type": "mcq",
+    "question": "A student claims that a single-core microcontroller using interrupts is performing \"Parallel Processing\" (doing two things at the exact same instant). Based on definition of \"Multitasking,\" why is this statement technically incorrect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the processor creates an illusion of parallelism by rapid context switching."
+      },
+      {
+        "id": "B",
+        "text": "Because interrupts block all other tasks until the system is fully reset."
+      },
+      {
+        "id": "C",
+        "text": "Because parallel processing requires the use of Software Interrupts only."
+      },
+      {
+        "id": "D",
+        "text": "Because the Interrupt Vector Table prevents two tasks from loading at once."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-63",
+    "source": "final_p2",
+    "number": 63,
+    "type": "mcq",
+    "question": "Consider a safety system for an airbag. Why is \"Real-time Response\" (a benefit of Interrupts) considered critical here, making Polling a dangerous choice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polling loops might be stuck executing other code when the crash happens, delaying the airbag."
+      },
+      {
+        "id": "B",
+        "text": "Polling generates too much heat, which could accidentally trigger the airbag explosives."
+      },
+      {
+        "id": "C",
+        "text": "Interrupts are the only mechanism that can read data from a mechanical crash sensor."
+      },
+      {
+        "id": "D",
+        "text": "Interrupts allow the airbag to deploy before the crash actually happens (predictive)."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-64",
+    "source": "final_p2",
+    "number": 64,
+    "type": "mcq",
+    "question": "Which of the following scenarios describes a \"Software Interrupt\" as, rather than an Internal or Hardware interrupt?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A temperature sensor sends a high voltage signal to a pin."
+      },
+      {
+        "id": "B",
+        "text": "A watchdog timer overflows because the system hung."
+      },
+      {
+        "id": "C",
+        "text": "A user program executes a specific instruction to request a service."
+      },
+      {
+        "id": "D",
+        "text": "A button is pressed by the user to reset the screen."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-65",
+    "source": "final_p2",
+    "number": 65,
+    "type": "mcq",
+    "question": "If an ISR (Interrupt Service Routine) is written with a while(1) infinite loop inside it, how does this affect the \"Resource Management\" of the processor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It improves management by keeping the CPU focused on one task."
+      },
+      {
+        "id": "B",
+        "text": "It fails to return control, causing the main program to hang indefinitely."
+      },
+      {
+        "id": "C",
+        "text": "It allows the main program to run in the background simultaneously."
+      },
+      {
+        "id": "D",
+        "text": "It forces the processor to create a new thread for the main program."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-66",
+    "source": "final_p2",
+    "number": 66,
+    "type": "mcq",
+    "question": "How does \"Context Switching\" enable the \"Multitasking\" capability ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By allowing the ISR to run on a separate processor core."
+      },
+      {
+        "id": "B",
+        "text": "By permanently deleting the old task to make room for the new one."
+      },
+      {
+        "id": "C",
+        "text": "By saving the old task's state so it can be seamlessly resumed later."
+      },
+      {
+        "id": "D",
+        "text": "By increasing the clock speed to run both tasks in the same cycle."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-67",
+    "source": "final_p2",
+    "number": 67,
+    "type": "mcq",
+    "question": "A \"Watchdog Timeout\" is classified as an \"Internal Interrupt.\", what is the function of this specific type of interrupt?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To read external user inputs from keyboards or mice."
+      },
+      {
+        "id": "B",
+        "text": "To recover the system from errors or software faults."
+      },
+      {
+        "id": "C",
+        "text": "To generate a clock signal for external peripherals."
+      },
+      {
+        "id": "D",
+        "text": "To facilitate communication between two different chips."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-68",
+    "source": "final_p2",
+    "number": 68,
+    "type": "mcq",
+    "question": "In the \"Interrupt Processing Flow,\" what is the functional relationship between the \"Interrupt Signal\" and the \"Interrupt Vector Lookup\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Signal is the physical trigger; the Lookup is finding where the code is."
+      },
+      {
+        "id": "B",
+        "text": "The Signal executes the code; the Lookup saves the register context."
+      },
+      {
+        "id": "C",
+        "text": "The Signal restores the context; the Lookup generates the trigger."
+      },
+      {
+        "id": "D",
+        "text": "The Signal is software-only; the Lookup is hardware-only."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-69",
+    "source": "final_p2",
+    "number": 69,
+    "type": "mcq",
+    "question": "A system designer wants to ensure the CPU is not wasting energy by constantly checking if a button has been pressed. Which approach should they use to improve \"Efficiency\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase the clock speed of the Polling loop."
+      },
+      {
+        "id": "B",
+        "text": "Use an Interrupt mechanism."
+      },
+      {
+        "id": "C",
+        "text": "Use a second processor just for the button."
+      },
+      {
+        "id": "D",
+        "text": "Remove the button from the system."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-70",
+    "source": "final_p2",
+    "number": 70,
+    "type": "mcq",
+    "question": "What is the correct logical sequence of events when an interrupt occurs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Execute ISR → Save Context → Lookup Vector → Trigger."
+      },
+      {
+        "id": "B",
+        "text": "Trigger → Lookup Vector → Save Context → Execute ISR → Restore Context."
+      },
+      {
+        "id": "C",
+        "text": "Trigger → Restore Context → Execute ISR → Save Context."
+      },
+      {
+        "id": "D",
+        "text": "Execute ISR → Trigger → Return to Main."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-71",
+    "source": "final_p2",
+    "number": 71,
+    "type": "mcq",
+    "question": "What is the specific function of the \"Interrupt Vector Table\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It saves the current state of the registers."
+      },
+      {
+        "id": "B",
+        "text": "It maps each interrupt source to its corresponding Interrupt Service Routine (ISR)."
+      },
+      {
+        "id": "C",
+        "text": "It generates the clock signal for the system."
+      },
+      {
+        "id": "D",
+        "text": "It acts as a buffer for sensor data."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-72",
+    "source": "final_p2",
+    "number": 72,
+    "type": "mcq",
+    "question": "During a \"Critical Section\" of code where a shared variable is being updated, the programmer chooses to \"Disable Interrupts\" globally. What is the primary risk if this disabled period lasts too long?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Interrupt Vector Table will be erased from memory due to inactivity."
+      },
+      {
+        "id": "B",
+        "text": "The microcontroller will enter a sleep mode and fail to wake up again."
+      },
+      {
+        "id": "C",
+        "text": "Important external events might be missed or delayed beyond their valid window."
+      },
+      {
+        "id": "D",
+        "text": "The shared variable will become read-only and cannot be updated by the main program."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-73",
+    "source": "final_p2",
+    "number": 73,
+    "type": "mcq",
+    "question": "A system has two interrupts: a \"Timer\" (High Priority) and a \"Button\" (Low Priority). If the user presses the button, and the Timer interrupt fires while the Button ISR is already executing, what happens in a system that supports \"Interrupt Nesting\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Button ISR is paused, the Timer ISR executes to completion."
+      },
+      {
+        "id": "B",
+        "text": "The Timer ISR is ignored until the Button ISR finishes because the button was pressed first."
+      },
+      {
+        "id": "C",
+        "text": "The system resets because two interrupts cannot be active at the same time."
+      },
+      {
+        "id": "D",
+        "text": "The Timer ISR and Button ISR execute simultaneously on the same processor core."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-74",
+    "source": "final_p2",
+    "number": 74,
+    "type": "mcq",
+    "question": "What is the functional difference between \"Disabling Interrupts\" and \"Masking Interrupts\" ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disabling turns off the power to the CPU; Masking turns off the power to the peripherals."
+      },
+      {
+        "id": "B",
+        "text": "Disabling affects the Vector Table; Masking affects the Context Switching mechanism."
+      },
+      {
+        "id": "C",
+        "text": "Disabling stops all interrupts; Masking disables only specific interrupts based on priority."
+      },
+      {
+        "id": "D",
+        "text": "Disabling is permanent until reboot; Masking is temporary for a few milliseconds."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-75",
+    "source": "final_p2",
+    "number": 75,
+    "type": "mcq",
+    "question": "Why are \"Memory Errors\" (like ECC faults) typically assigned to Non-Maskable Interrupts (NMI) instead of Maskable Interrupts?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because memory errors are low-priority events that can be handled whenever the CPU is free."
+      },
+      {
+        "id": "B",
+        "text": "Because if the memory is corrupted, the system cannot safely execute any other code."
+      },
+      {
+        "id": "C",
+        "text": "Because Maskable Interrupts cannot access the RAM, only the Flash memory."
+      },
+      {
+        "id": "D",
+        "text": "Because NMIs are faster to execute than Maskable interrupts."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-76",
+    "source": "final_p2",
+    "number": 76,
+    "type": "mcq",
+    "question": "What is the function of a Watchdog Timer in an embedded system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To handle periodic tasks by generating regular hardware interrupts."
+      },
+      {
+        "id": "B",
+        "text": "To manage serial communication events such as data reception."
+      },
+      {
+        "id": "C",
+        "text": "To reset the system automatically in case of a software malfunction."
+      },
+      {
+        "id": "D",
+        "text": "To process signals from external devices like switches and sensors."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-77",
+    "source": "final_p2",
+    "number": 77,
+    "type": "mcq",
+    "question": "How does the length of an Interrupt Service Routine (ISR) affect system performance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Longer ISRs increase the latency for subsequent waiting interrupts."
+      },
+      {
+        "id": "B",
+        "text": "Longer ISRs decrease the time required for context switching."
+      },
+      {
+        "id": "C",
+        "text": "Shorter ISRs prevent the processor from saving its state correctly."
+      },
+      {
+        "id": "D",
+        "text": "Shorter ISRs cause the Watchdog Timer to reset the system often."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-78",
+    "source": "final_p2",
+    "number": 78,
+    "type": "mcq",
+    "question": "Which of the following is classified as an \"External Communication Interface\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I2C"
+      },
+      {
+        "id": "B",
+        "text": "SPI"
+      },
+      {
+        "id": "C",
+        "text": "RS232 C"
+      },
+      {
+        "id": "D",
+        "text": "UART"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-79",
+    "source": "final_p2",
+    "number": 79,
+    "type": "mcq",
+    "question": "A system architect is designing a circuit that requires simultaneous transmission and reception of data (Full Duplex) between a microcontroller and a high-speed memory card. The number of available pins is not a concern. Based on the text, which interface is the optimal choice and why?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I2C; because it uses only two wires, simplifying the board layout significantly."
+      },
+      {
+        "id": "B",
+        "text": "SPI; because it supports Full Duplex mode allowing simultaneous data flow."
+      },
+      {
+        "id": "C",
+        "text": "UART; because it can handle interrupts and manage device speed efficiently."
+      },
+      {
+        "id": "D",
+        "text": "I2C; because it supports a \"High Speed\" mode of 3.4 Mbps for the memory."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-80",
+    "source": "final_p2",
+    "number": 80,
+    "type": "mcq",
+    "question": "UART is described as \"Asynchronous\" and \"does not need a clock signal.\" If two devices are communicating via UART, how do they ensure they are reading the data bits correctly without a shared clock?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They use the \"Parity Bit\" to effectively synchronize the timing of every single bit."
+      },
+      {
+        "id": "B",
+        "text": "They use \"Start and Stop bits\" to frame the data and separate it from the silence."
+      },
+      {
+        "id": "C",
+        "text": "They rely on the \"Interrupts\" from the mouse to trigger the reading of each byte."
+      },
+      {
+        "id": "D",
+        "text": "They share a hidden \"Universal Serial Bus\" clock line inside the hardware chip."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-81",
+    "source": "final_p2",
+    "number": 81,
+    "type": "mcq",
+    "question": "What is the primary physical characteristic of the I2C bus architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It uses four wires for full-duplex data transmission."
+      },
+      {
+        "id": "B",
+        "text": "It uses separate transmit and receive lines without a clock."
+      },
+      {
+        "id": "C",
+        "text": "It uses a single wire for both data and clock signals."
+      },
+      {
+        "id": "D",
+        "text": "It uses two bi-directional wires: SDA and SCL."
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-82",
+    "source": "final_p2",
+    "number": 82,
+    "type": "mcq",
+    "question": "How does the Serial Peripheral Interface (SPI) handle data transmission?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It operates in full duplex mode, sending and receiving data simultaneously."
+      },
+      {
+        "id": "B",
+        "text": "It operates in half duplex mode, sending data only one way at a time."
+      },
+      {
+        "id": "C",
+        "text": "It operates asynchronously without requiring a synchronized clock signal."
+      },
+      {
+        "id": "D",
+        "text": "It operates using a single master and single slave on a two-wire bus."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-83",
+    "source": "final_p2",
+    "number": 83,
+    "type": "mcq",
+    "question": "Which of the following is listed as a major disadvantage of using the SPI bus?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It has a very low data transfer speed compared to I2C."
+      },
+      {
+        "id": "B",
+        "text": "It lacks a built-in acknowledgement mechanism for data transfer."
+      },
+      {
+        "id": "C",
+        "text": "It requires complex voltage shifting for standard operation."
+      },
+      {
+        "id": "D",
+        "text": "It supports collision detection which slows down the bus."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-84",
+    "source": "final_p2",
+    "number": 84,
+    "type": "mcq",
+    "question": "What is the hardware function of a UART regarding data format conversion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It converts parallel bytes from the computer into a serial bit stream."
+      },
+      {
+        "id": "B",
+        "text": "It converts analog audio signals into digital data for the CPU."
+      },
+      {
+        "id": "C",
+        "text": "It converts high-voltage external signals to low-voltage internal logic."
+      },
+      {
+        "id": "D",
+        "text": "It converts USB data packets into Ethernet frames for networking."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-85",
+    "source": "final_p2",
+    "number": 85,
+    "type": "mcq",
+    "question": "How does UART typically handle error checking for transmissions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requests a re-transmission for every packet sent."
+      },
+      {
+        "id": "B",
+        "text": "It uses a complex 32-bit Cyclic Redundancy Check (CRC)."
+      },
+      {
+        "id": "C",
+        "text": "It adds a parity bit to the signal and checks incoming bytes."
+      },
+      {
+        "id": "D",
+        "text": "It relies entirely on the user to visually verify the data."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-86",
+    "source": "final_p2",
+    "number": 86,
+    "type": "mcq",
+    "question": "Which interface is described as common for high-speed communication with memory cards?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I2C"
+      },
+      {
+        "id": "B",
+        "text": "UART"
+      },
+      {
+        "id": "C",
+        "text": "SPI"
+      },
+      {
+        "id": "D",
+        "text": "One Wire Interface"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-87",
+    "source": "final_p2",
+    "number": 87,
+    "type": "mcq",
+    "question": "A designer is building a compact smartwatch where the circuit board is extremely small. They choose Serial Communication over Parallel Communication. What is the primary architectural justification for this decision?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Serial Communication sends multiple bits at the same time, making the watch run faster and smoother."
+      },
+      {
+        "id": "B",
+        "text": "Serial Communication requires \"fewer wires\" and is less complex/costly."
+      },
+      {
+        "id": "C",
+        "text": "Serial Communication is the only method that supports \"tough\" protocols like CAN, which are required for watches."
+      },
+      {
+        "id": "D",
+        "text": "Parallel Communication is illegal to use in modern embedded systems due to its high power consumption."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-88",
+    "source": "final_p2",
+    "number": 88,
+    "type": "mcq",
+    "question": "What is the role of a communication protocol in an embedded system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To physically connect different sensors to the power supply unit."
+      },
+      {
+        "id": "B",
+        "text": "To provide a set of rules that ensures smooth data exchange without errors."
+      },
+      {
+        "id": "C",
+        "text": "To compile the system's software code into machine language."
+      },
+      {
+        "id": "D",
+        "text": "To increase the processing speed of the central microcontroller unit."
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-89",
+    "source": "final_p2",
+    "number": 89,
+    "type": "mcq",
+    "question": "Which of the following best describes the \"Serial Communication\" method?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data is sent bit by bit, one after another, using fewer wires."
+      },
+      {
+        "id": "B",
+        "text": "Multiple bits are sent at the same time using many wires."
+      },
+      {
+        "id": "C",
+        "text": "Data is stored permanently in the device's Read-Only Memory."
+      },
+      {
+        "id": "D",
+        "text": "Signals are transmitted wirelessly without any physical connections."
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "final_p2-90",
+    "source": "final_p2",
+    "number": 90,
+    "type": "mcq",
+    "question": "Which protocol is described in the text as \"tough\" and frequently used in cars and factories?",
+    "options": [
+      {
+        "id": "A",
+        "text": "UART"
+      },
+      {
+        "id": "B",
+        "text": "SPI"
+      },
+      {
+        "id": "C",
+        "text": "I2C"
+      },
+      {
+        "id": "D",
+        "text": "CAN"
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "final_p2-91",
+    "source": "final_p2",
+    "number": 91,
+    "type": "mcq",
+    "question": "Why is Parallel Communication less commonly used in embedded systems compared to Serial Communication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it is much slower than serial communication methods."
+      },
+      {
+        "id": "B",
+        "text": "Because it cannot handle error checking or data validation."
+      },
+      {
+        "id": "C",
+        "text": "Because it requires more wires and is more complex and costly."
+      },
+      {
+        "id": "D",
+        "text": "Because it is only compatible with very old analog sensors."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-92",
+    "source": "final_p2",
+    "number": 92,
+    "type": "mcq",
+    "question": "What are the key factors to consider when choosing a communication protocol?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The physical size and weight of the microcontroller chip."
+      },
+      {
+        "id": "B",
+        "text": "The brand popularity of the specific sensor manufacturer."
+      },
+      {
+        "id": "C",
+        "text": "The required data speed, transmission distance, and reliability."
+      },
+      {
+        "id": "D",
+        "text": "The number of user buttons available on the interface panel."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-93",
+    "source": "final_p2",
+    "number": 93,
+    "type": "mcq",
+    "question": "An engineer is designing an \"Airbag Deployment System\" for a luxury vehicle. The system must operate reliably despite heavy electrical noise from the engine and must continue functioning even if minor faults occur on the bus. Which protocol is the mandatory choice here?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SPI; because it is the fastest protocol available for real-time safety systems."
+      },
+      {
+        "id": "B",
+        "text": "Wi-Fi; because it avoids physical wires that could be cut during a crash."
+      },
+      {
+        "id": "C",
+        "text": "CAN; because it is explicitly \"fault-tolerant\" and robust against noise interference."
+      },
+      {
+        "id": "D",
+        "text": "USB; because it can provide power to the airbag sensors directly."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-94",
+    "source": "final_p2",
+    "number": 94,
+    "type": "mcq",
+    "question": "You are developing a portable \"Heart Rate Monitor\" that runs on a small coin-cell battery. The device needs to send small packets of data to a phone nearby (within 5 meters). Why is Bluetooth (BLE) a better engineering choice than Wi-Fi for this specific application?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bluetooth has a range of up to 100km, making it safer for medical use."
+      },
+      {
+        "id": "B",
+        "text": "Wi-Fi cannot transfer medical data due to security restrictions in the protocol."
+      },
+      {
+        "id": "C",
+        "text": "Bluetooth Low Energy is optimized for \"low power consumption,\" extending battery life significantly compared to Wi-Fi."
+      },
+      {
+        "id": "D",
+        "text": "Wi-Fi requires a wired connection to the internet, which limits portability."
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-95",
+    "source": "final_p2",
+    "number": 95,
+    "type": "mcq",
+    "question": "A student needs to transfer 4GB of video files from a drone camera to a computer as fast as possible. They have the option to use I2C, UART, or USB. Based on the \"Data Rate\" selection criteria , which should they choose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I2C"
+      },
+      {
+        "id": "B",
+        "text": "USB"
+      },
+      {
+        "id": "C",
+        "text": "UART"
+      },
+      {
+        "id": "D",
+        "text": "BLE"
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "final_p2-96",
+    "source": "final_p2",
+    "number": 96,
+    "type": "mcq",
+    "question": "When designing a system, which protocols are recommended if you need to send a lot of data quickly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I2C or USB"
+      },
+      {
+        "id": "B",
+        "text": "UART or Zigbee"
+      },
+      {
+        "id": "C",
+        "text": "SPI or USB"
+      },
+      {
+        "id": "D",
+        "text": "CAN or LoRa"
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "final_p2-97",
+    "source": "final_p2",
+    "number": 97,
+    "type": "mcq",
+    "question": "Which set of protocols does as \"good choices\" for short-distance communication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wi-Fi or LoRa"
+      },
+      {
+        "id": "B",
+        "text": "UART or SPI"
+      },
+      {
+        "id": "C",
+        "text": "CAN or USB"
+      },
+      {
+        "id": "D",
+        "text": "GPS or 5G"
+      }
+    ],
+    "answer": "B"
+  }
+]

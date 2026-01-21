@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Embedded Systems Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">ES</div>
+      <div class="titles">
+        <div class="title">Embedded Systems Quiz</div>
+        <div class="subtitle">حل الأسئلة + تصحيح تلقائي + Score</div>
+      </div>
+    </div>
+    <div class="top-actions">
+      <button id="btnToggleTheme" class="btn btn-ghost" type="button">🌙/☀️</button>
+      <button id="btnReset" class="btn btn-ghost" type="button">إعادة تعيين</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="screenLoading" class="card">
+      <h2>جاري تحميل الأسئلة…</h2>
+      <p class="muted">لو الملف كبير شوية ده طبيعي.</p>
+      <div class="progressbar"><div class="bar"></div></div>
+    </section>
+
+    <section id="screenStart" class="card hidden">
+      <h2>ابدأ الامتحان</h2>
+
+      <div class="grid">
+        <label class="field">
+          <span>عدد الأسئلة</span>
+          <input id="countInput" type="number" min="1" step="1" />
+          <small class="muted">سيتم اختيار الأسئلة عشوائيًا من بنك الأسئلة.</small>
+        </label>
+
+        <label class="field">
+          <span>ترتيب عشوائي (Shuffle)</span>
+          <select id="shuffleSelect">
+            <option value="yes" selected>نعم</option>
+            <option value="no">لا</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>توقيت (اختياري)</span>
+          <select id="timerSelect">
+            <option value="off" selected>بدون وقت</option>
+            <option value="30">30 دقيقة</option>
+            <option value="60">60 دقيقة</option>
+            <option value="90">90 دقيقة</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>وضع المراجعة</span>
+          <select id="reviewSelect">
+            <option value="after" selected>إظهار الحل بعد إنهاء الامتحان</option>
+            <option value="instant">إظهار صح/غلط بعد كل سؤال</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="row">
+        <button id="btnStart" class="btn btn-primary" type="button">ابدأ</button>
+        <span id="bankInfo" class="muted"></span>
+      </div>
+
+      <hr class="sep" />
+      <details>
+        <summary>مصدر الأسئلة</summary>
+        <p class="muted">
+          الأسئلة تم استخراجها تلقائيًا من ملفات PDF التي رفعتها (MCQ مع Answer).
+        </p>
+      </details>
+    </section>
+
+    <section id="screenQuiz" class="hidden">
+      <div class="quizbar">
+        <div class="pill" id="pillProgress">سؤال 1 / 1</div>
+        <div class="pill" id="pillTimer" hidden>⏱ 00:00</div>
+        <div class="pill" id="pillAnswered">تم الحل: 0</div>
+      </div>
+
+      <div class="card">
+        <div class="qhead">
+          <div class="qmeta">
+            <div id="qSource" class="badge"></div>
+            <div id="qId" class="muted"></div>
+          </div>
+          <div class="navmini">
+            <button id="btnPrev" class="btn btn-ghost" type="button">السابق</button>
+            <button id="btnNext" class="btn btn-ghost" type="button">التالي</button>
+          </div>
+        </div>
+
+        <h2 id="qText" class="qtext"></h2>
+
+        <form id="optionsForm" class="options"></form>
+
+        <div id="instantFeedback" class="feedback hidden"></div>
+
+        <div class="row space">
+          <button id="btnFlag" class="btn btn-ghost" type="button">🚩 علامة</button>
+          <div class="row">
+            <button id="btnClear" class="btn btn-ghost" type="button">مسح الإجابة</button>
+            <button id="btnSubmit" class="btn btn-primary" type="button">إنهاء وحساب السكور</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>قائمة سريعة</h3>
+        <div id="navGrid" class="navgrid"></div>
+      </div>
+    </section>
+
+    <section id="screenResult" class="card hidden">
+      <h2>النتيجة</h2>
+      <div class="scorebox">
+        <div>
+          <div class="big" id="scorePct">0%</div>
+          <div class="muted" id="scoreLine">0 / 0</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="k">صح</div><div class="v" id="statCorrect">0</div></div>
+          <div class="stat"><div class="k">غلط</div><div class="v" id="statWrong">0</div></div>
+          <div class="stat"><div class="k">بدون إجابة</div><div class="v" id="statBlank">0</div></div>
+          <div class="stat"><div class="k">وقت</div><div class="v" id="statTime">—</div></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <button id="btnReview" class="btn btn-primary" type="button">مراجعة الإجابات</button>
+        <button id="btnNew" class="btn btn-ghost" type="button">امتحان جديد</button>
+      </div>
+
+      <div id="reviewWrap" class="hidden">
+        <hr class="sep" />
+        <h3>المراجعة</h3>
+        <div id="reviewList" class="reviewlist"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="muted">Offline-ready — مجرد افتح الصفحة من سيرفر محلي.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
