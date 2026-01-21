@@ -19402,5 +19402,1281 @@
       }
     ],
     "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p1::q1",
+    "question": "What does FPU stand for?",
+    "choices": {
+      "A": "Fast Processing Unit",
+      "B": "Floating Point Unit",
+      "C": "Firmware Processing Unit",
+      "D": "Fault Protection Unit"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p1::q2",
+    "question": "Which of the following is the primary function of a Memory Protection Unit \n(MPU)?",
+    "choices": {
+      "A": "To translate virtual addresses to physical addresses.",
+      "B": "To perform complex mathematical operations on real numbers.",
+      "C": "To control how different regions of memory can be accessed by software.",
+      "D": "To increase the speed of data transfer between RAM and the CPU."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p1::q3",
+    "question": "What is the main purpose of a Memory Management Unit (MMU)?",
+    "choices": {
+      "A": "To prevent floating -point errors.",
+      "B": "To isolate tasks in an RTOS environment.",
+      "C": "To translate virtual addresses used by applications into physical addresses \nin RAM.",
+      "D": "To perform square root and trigonometric functions."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p1::q4",
+    "question": "According to the document, which unit allows a system with 1 GB of RAM to \nrun an application that thinks it has 8 GB of memory?",
+    "choices": {
+      "A": "FPU",
+      "B": "MPU",
+      "C": "MMU",
+      "D": "CPU"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p2::q6",
+    "question": "Which of the following operations is NOT typically handled by an FPU?",
+    "choices": {
+      "A": "Multiplication",
+      "B": "Division",
+      "C": "Memory access control",
+      "D": "Square root"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p2::q7",
+    "question": "Where is an MPU typically located?",
+    "choices": {
+      "A": "Physically between the cache and RAM.",
+      "B": "As an external chip alongside the main CPU.",
+      "C": "Integrated inside the CPU or microcontroller.",
+      "D": "On the hard disk."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p2::q8",
+    "question": "What key feature does an MPU provide in an RTOS environment?",
+    "choices": {
+      "A": "Task Isolation",
+      "B": "Faster performance",
+      "C": "Virtual memory",
+      "D": "Higher precision math"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p2::q9",
+    "question": "The document states that to run a complex OS like Linux, an MCU should \nhave a fast core and what other crucial component?",
+    "choices": {
+      "A": "An external FPU",
+      "B": "A multi -core processor",
+      "C": "An MMU",
+      "D": "A large cache"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p3::q1",
+    "question": "Which bus is described as bi -directional, allowing data to be transferred both \nto and from the microprocessor?",
+    "choices": {
+      "A": "Address Bus",
+      "B": "Control Bus",
+      "C": "Data Bus",
+      "D": "System Bus"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p3::q2",
+    "question": "What is a key characteristic of the Von -Neumann architecture?",
+    "choices": {
+      "A": "It uses separate buses for instructions and data.",
+      "B": "It cannot access RAM and ROM at the same time.",
+      "C": "It is more expensive and complex than Harvard architecture.",
+      "D": "It prevents self -modifying code."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p3::q3",
+    "question": "What is a major advantage of the Harvard architecture?",
+    "choices": {
+      "A": "It is cheaper due to using a single shared bus.",
+      "B": "It allows the CPU to fetch instructions and access data simultaneously.",
+      "C": "It allows for self -modifying code, which increases flexibility.",
+      "D": "It requires fewer cables and wires."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p4::q5",
+    "question": "The Address Bus is typically:",
+    "choices": {
+      "A": "Bi -directional from the microprocessor.",
+      "B": "Uni -directional from the microprocessor to memory/peripherals.",
+      "C": "Bi -directional between RAM and ROM.",
+      "D": "Uni -directional from memory to the microprocessor."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p4::q6",
+    "question": "In the Von -Neumann architecture, RAM, ROM, and I/O are distinguished by:",
+    "choices": {
+      "A": "Different physical ports.",
+      "B": "Different ranges of memory addresses.",
+      "C": "Different bus sets.",
+      "D": "Different CPU instructions."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p4::q7",
+    "question": "What is a primary disadvantage of the Von -Neumann architecture ?",
+    "choices": {
+      "A": "Higher cost",
+      "B": "Inability to use pipelining, leading to wasted time",
+      "C": "No chance for accidental corruption of memory",
+      "D": "Requires more buses and cables"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p4::q8",
+    "question": "Which architecture is stated to be more suitable for microcontrollers due to \nthe small scale of the chip?",
+    "choices": {
+      "A": "Von -Neumann",
+      "B": "Harvard",
+      "C": "Both are equally suitable",
+      "D": "Neither, a hybrid is used"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p4::q9",
+    "question": "What does the control signal  MRDC  (Memory Read Control) do?",
+    "choices": {
+      "A": "Allows the microprocessor to write to RAM.",
+      "B": "Allows the microprocessor to read from RAM and ROM.",
+      "C": "Controls output devices like printers.",
+      "D": "Controls input devices like keyboards."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p5::q1",
+    "question": "In a Memory -Mapped I/O scheme, how does the CPU access I/O devices?",
+    "choices": {
+      "A": "Using special instructions like IN/OUT.",
+      "B": "Using normal load/store instructions, as if accessing memory.",
+      "C": "Through a separate I/O controller.",
+      "D": "It cannot access I/O devices directly."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p5::q2",
+    "question": "In a Port -Mapped I/O scheme, what instructions are used to deal with I/O?",
+    "choices": {
+      "A": "Load/Store",
+      "B": "Read/Write",
+      "C": "In/Out",
+      "D": "Fetch/Execute"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p5::q3",
+    "question": "What is a GPIO?",
+    "choices": {
+      "A": "General Purpose Input/Output",
+      "B": "Graphics Processing I/O",
+      "C": "General Power -On Interrupt",
+      "D": "Global Peripheral Object"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p5::q4",
+    "question": "How is a specific register within a peripheral like a GPIO accessed?",
+    "choices": {
+      "A": "By using only its unique name.",
+      "B": "By adding an offset to the peripheral's base address.",
+      "C": "By sending a signal on the control bus.",
+      "D": "By using the MMU to translate its address."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p6::q6",
+    "question": "On a system bus, the CPU typically acts as a _______, and a peripheral like \nGPIO acts as a _______.",
+    "choices": {
+      "A": "slave, master",
+      "B": "master, slave",
+      "C": "bridge, master",
+      "D": "slave, bridge"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p6::q7",
+    "question": "What is the purpose of a \"bridge\" in a system bus context?",
+    "choices": {
+      "A": "To physically connect two circuit boards.",
+      "B": "To power the peripherals.",
+      "C": "To convert between different bus protocols or interface types.",
+      "D": "To store the base addresses of all peripherals."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p6::q8",
+    "question": "The document states that modern embedded systems commonly use a \nHarvard CPU internally, but the I/O devices are almost always:",
+    "choices": {
+      "A": "Port -mapped",
+      "B": "Isolated",
+      "C": "Externally powered",
+      "D": "Memory -mapped"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ES Important Questions::p7::q2",
+    "question": "What does MIPS stand for?",
+    "choices": {
+      "A": "Maximum Instructions Per Stage",
+      "B": "Microprocessor Instruction Pipeline System",
+      "C": "Millions of Instructions Per Second",
+      "D": "Most Instructions Processed Sequentially"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p7::q3",
+    "question": "Which type of processor architecture can typically support pipelining?",
+    "choices": {
+      "A": "CISC",
+      "B": "RISC",
+      "C": "Von -Neumann",
+      "D": "All of the above"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p7::q4",
+    "question": "If a microcontroller is rated at 8 MIPS and its clock frequency is 8 MHz, what \ndoes this imply?",
+    "choices": {
+      "A": "It can execute 8 million instructions in 8 seconds.",
+      "B": "It takes 8 clock cycles to execute one instruction.",
+      "C": "It executes, on average, one instruction per clock cycle.",
+      "D": "It has 8 pipelines."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p7::q5",
+    "question": "The execution of an instruction, which depends on the clock, consists of \nwhich three main stages?",
+    "choices": {
+      "A": "Read, Write, Erase",
+      "B": "Start, Stop, Reset",
+      "C": "Fetch, Decode, Execute",
+      "D": "Input, Process, Output"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p8::q7",
+    "question": "If minimizing cost is the most important factor, which clock generation \nsystem is the best choice?",
+    "choices": {
+      "A": "RC Oscillator",
+      "B": "Ceramic Resonator",
+      "C": "Crystal Oscillator",
+      "D": "Atomic Clock"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p8::q8",
+    "question": "What is the fundamental purpose of a clock signal in a digital system?",
+    "choices": {
+      "A": "To keep track of the time of day.",
+      "B": "To control and synchronize the timing of operations.",
+      "C": "To generate a sinusoidal output signal.",
+      "D": "To provide power to the circuit."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p8::q9",
+    "question": "Microcontrollers are typically a combination of which two architectural \nconcepts?",
+    "choices": {
+      "A": "CISC and Von -Neumann",
+      "B": "RISC and Harvard",
+      "C": "CISC and Harvard",
+      "D": "RISC and Von -Neumann"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p8::q1",
+    "question": "The process of assigning specific address ranges to memory or I/O devices is \nknown as :",
+    "choices": {
+      "A": "Port mapping",
+      "B": "Memory mapping",
+      "C": "Bus interfacing",
+      "D": "Pipelining"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p9::q3",
+    "question": "Why can't a microprocessor write to ROM?",
+    "choices": {
+      "A": "The data bus is uni -directional.",
+      "B": "ROM (Read -Only Memory) is non -writable by design.",
+      "C": "The control bus does not have a write signal for ROM.",
+      "D": "Both B and C are correct."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p9::q4",
+    "question": "What is the role of a hypervisor in the context of running Linux and an RTOS \non the same device?",
+    "choices": {
+      "A": "It translates virtual addresses for both operating systems.",
+      "B": "It acts as a layer beneath the operating systems to manage resources.",
+      "C": "It is another name for the MPU.",
+      "D": "It compiles the C code into assembly."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p9::q5",
+    "question": "which oscillator has the lowest immunity to temperature changes?",
+    "choices": {
+      "A": "Crystal Oscillator",
+      "B": "Ceramic Resonator",
+      "C": "RC Oscillator",
+      "D": "All have high immunity"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p9::q6",
+    "question": "What is the relationship between clock frequency (F) and the time period of \none cycle (T)?",
+    "choices": {
+      "A": "F = T",
+      "B": "F = T / 2",
+      "C": "F = 1 / T",
+      "D": "F = 1 + T"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p10::q8",
+    "question": "Which architecture faces a higher chance of accidental program memory \ncorruption because instructions and data are stored together?",
+    "choices": {
+      "A": "Harvard",
+      "B": "RISC",
+      "C": "Von -Neumann",
+      "D": "MIPS"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p10::q9",
+    "question": "What is a  bus matrix  used for  ?",
+    "choices": {
+      "A": "To connect the CPU to the monitor.",
+      "B": "To convert the Harvard -style output from the CPU into a memory -mapped \nrange.",
+      "C": "To design the physical layout of the bus on the PCB.",
+      "D": "To debug bus errors."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p10::q10",
+    "question": "To deal with RAM, the CPU uses assembly instructions like _______; to \ndeal with ROM, it uses _______.",
+    "choices": {
+      "A": "In/Out; Load/Store",
+      "B": "Read/Write; Load/Store",
+      "C": "Load/Store; Read/Write",
+      "D": "Fetch; Execute"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p11::q12",
+    "question": "Which oscillator type has low immunity to vibration because it works by \nvibration?",
+    "choices": {
+      "A": "RC Oscillator",
+      "B": "Crystal Oscillator",
+      "C": "Ceramic Resonator",
+      "D": "Both B and C"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ES Important Questions::p11::q13",
+    "question": "A peripheral, such as GPIO, is fundamentally a combination of:",
+    "choices": {
+      "A": "Software drivers and APIs",
+      "B": "A hardware circuit and registers",
+      "C": "An address bus and a data bus",
+      "D": "A clock and a timer"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p11::q1",
+    "question": "What is a direct consequence of an MPU detecting an unauthorized memory \naccess?",
+    "choices": {
+      "A": "The system immediately powers down.",
+      "B": "A specific type of exception or fault is triggered.",
+      "C": "The MPU attempts to correct the address.",
+      "D": "The program is automatically reloaded."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p11::q2",
+    "question": "Virtual memory, a feature enabled by the MMU, is most beneficial for:",
+    "choices": {
+      "A": "Real -time systems with deterministic timing requirements.",
+      "B": "Running large, complex operating systems like Linux or Windows.",
+      "C": "Simple microcontrollers with limited memory.",
+      "D": "High -speed data acquisition systems."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p12::q4",
+    "question": "Which unit deals with translating logical addresses generated by the CPU \ninto physical addresses in main memory?",
+    "choices": {
+      "A": "FPU",
+      "B": "MPU",
+      "C": "MMU",
+      "D": "ALU"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p12::q5",
+    "question": "A key difference between an MPU and an MMU is that:",
+    "choices": {
+      "A": "Only an MMU can trigger memory faults.",
+      "B": "An MPU works with memory regions, while an MMU works with pages \nand address translation.",
+      "C": "An MPU is external to the CPU, while an MMU is internal.",
+      "D": "An MPU is only for Harvard architecture, and an MMU is for Von -Neumann."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p12::q6",
+    "question": "The use of an FPU is most critical in applications involving:",
+    "choices": {
+      "A": "Text processing and string manipulation.",
+      "B": "Digital signal processing (DSP) and scientific computing.",
+      "C": "Basic integer arithmetic.",
+      "D": "Task scheduling in an RTOS."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p13::q8",
+    "question": "The concept of \"swapping\" or \"paging\" data between RAM and a hard disk is \na function managed by the operating system in conjunction with which \nhardware unit?",
+    "choices": {
+      "A": "FPU",
+      "B": "MPU",
+      "C": "MMU",
+      "D": "GPIO"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p13::q9",
+    "question": "Why is an MMU generally considered overkill for a simple embedded system \nthat runs a single application?",
+    "choices": {
+      "A": "The complexity and power consumption of an MMU are not justified.",
+      "B": "MMUs are slower than MPUs.",
+      "C": "MMUs cannot handle real -time operations.",
+      "D": "MMUs are incompatible with most microcontrollers."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p13::q10",
+    "question": "When a hypervisor is used to run multiple operating systems, it heavily \nrelies on which hardware feature for isolation?",
+    "choices": {
+      "A": "The FPU's calculation speed.",
+      "B": "The MPU or MMU's memory protection capabilities.",
+      "C": "The system clock's accuracy.",
+      "D": "The width of the data bus."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p13::q1",
+    "question": "The width of the address bus determines:",
+    "choices": {
+      "A": "The number of bits that can be transferred at once.",
+      "B": "The total amount of memory that can be directly addressed by the CPU.",
+      "C": "The speed of the memory access.",
+      "D": "The number of peripherals that can be connected."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p14::q3",
+    "question": "What is a primary reason that the Harvard architecture allows for more \npredictable program execution time, which is crucial for real -time systems?",
+    "choices": {
+      "A": "It uses a slower, more stable clock.",
+      "B": "It prevents the use of complex instructions.",
+      "C": "Instruction fetches do not conflict with data accesses, avoiding pipeline \nstalls.",
+      "D": "It has a built -in MPU."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p14::q4",
+    "question": "The control bus carries signals that:",
+    "choices": {
+      "A": "Specify the memory address for a read/write operation.",
+      "B": "Contain the actual data being transferred.",
+      "C": "Direct the timing and direction of data flow (e.g., read, write, I/O select).",
+      "D": "Power the peripheral devices."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p14::q5",
+    "question": "\"Modified Harvard Architecture\" often refers to a system where:",
+    "choices": {
+      "A": "There are two separate data buses.",
+      "B": "A Harvard core is used, but a unified bus (like AHB or AXI) connects it to \nmemory and peripherals, making them appear as a single memory space.",
+      "C": "Von -Neumann and Harvard architectures are used in parallel.",
+      "D": "Instructions can be modified in real -time."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p15::q7",
+    "question": "Harvard architecture, RAM and ROM can have overlapping addresses (e.g., \nboth start at 0). The distinction is made by:",
+    "choices": {
+      "A": "The MPU.",
+      "B": "The type of assembly instruction used (e.g.,  load/store  for RAM \nvs. read/write  for ROM).",
+      "C": "The MMU.",
+      "D": "A physical switch on the microcontroller."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p15::q8",
+    "question": "A uni -directional bus is one where:",
+    "choices": {
+      "A": "Data can flow in both directions, but only one at a time.",
+      "B": "Data flows in only one direction (e.g., from master to slave).",
+      "C": "The bus has only one wire.",
+      "D": "The bus can only be used by one device."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p15::q9",
+    "question": "A \"bus master\" is a device that can:",
+    "choices": {
+      "A": "Only respond to requests from other devices .",
+      "B": "Initiate data transfers on the bus.",
+      "C": "Terminate the bus signals.",
+      "D": "Power the bus."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p15::q1",
+    "question": "A major advantage of Memory -Mapped I/O is that:",
+    "choices": {
+      "A": "It requires a smaller address space.",
+      "B": "The same instructions used for memory access can be used for I/O, \nsimplifying the CPU's design and the programming model.",
+      "C": "It is physically separated from the memory bus.",
+      "D": "It is faster than Port -Mapped I/O."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p16::q3",
+    "question": "The \"base address\" of a peripheral refers to:",
+    "choices": {
+      "A": "The first memory location of the peripheral's register block.",
+      "B": "The physical location of the peripheral on the circuit board.",
+      "C": "The last register's address.",
+      "D": "The address of the control bus."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p16::q4",
+    "question": "To set the 5th pin of a GPIO port as an output, a programmer would \ntypically:",
+    "choices": {
+      "A": "Send a special command on the control bus.",
+      "B": "Write a specific bit pattern to the GPIO's Data Direction Register.",
+      "C": "Recompile the operating system kernel.",
+      "D": "Use an MMU to remap the pin."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p16::q5",
+    "question": "The Technical Reference Manual (TRM) is essential for:",
+    "choices": {
+      "A": "Learning how to write C code.",
+      "B": "Understanding the electrical characteristics of the power supply.",
+      "C": "Finding the precise memory addresses and bit -level details of a \nmicrocontroller's peripherals.",
+      "D": "Designing the application's user interface."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p17::q7",
+    "question": "A \"bus matrix\" or \"bus bridge\" is necessary in modern MCUs to:",
+    "choices": {
+      "A": "Generate the system clock.",
+      "B": "Connect the Harvard -based CPU core to a unified, memory -mapped bus \nsystem for peripherals .",
+      "C": "Provide power to I/O devices.",
+      "D": "Store a backup of the main memory."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p17::q8",
+    "question": "What is a disadvantage of Port -Mapped I/O (using IN/OUT instructions)?",
+    "choices": {
+      "A": "It is less secure than Memory -Mapped I/O.",
+      "B": "The CPU requires a more complex instruction set to handle the special I/O \ncommands.",
+      "C": "It uses up a large portion of the memory address space.",
+      "D": "Data transfer is significantly slower."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p17::q9",
+    "question": "A GPIO pin configured as an input with a pull -up resistor will read as what \nvalue when nothing is connected to it?",
+    "choices": {
+      "A": "0 (Low)",
+      "B": "1 (High)",
+      "C": "It will float between 0 and 1.",
+      "D": "It will cause a memory fault."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p17::q1",
+    "question": "The primary purpose of pipelining is to improve instruction ________, not \ninstruction ________.",
+    "choices": {
+      "A": "latency, throughput",
+      "B": "throughput, latency",
+      "C": "accuracy, speed",
+      "D": "speed, accuracy"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p18::q3",
+    "question": "If a 5 -stage pipeline can start a new instruction every clock cycle, how many \ncycles would it take to complete 10 instructions (ignoring initial fill and final \ndrain time)?",
+    "choices": {
+      "A": "50 cycles",
+      "B": "14 cycles",
+      "C": "10 cycles",
+      "D": "5 cycles"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p18::q4",
+    "question": "Which clock source provides a good balance between cost and accuracy, \nmaking it a popular choice for many consumer electronics?",
+    "choices": {
+      "A": "RC Oscillator",
+      "B": "Ceramic Resonator",
+      "C": "Crystal Oscillator",
+      "D": "Rubidium Atomic Clock"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p18::q5",
+    "question": "The \"settling time\" of an oscillator refers to:",
+    "choices": {
+      "A": "The time it takes for the oscillator to cool down.",
+      "B": "The time it takes for the oscillator to start up and produce a stable \nfrequency.",
+      "C": "The time period of a single clock cycle.",
+      "D": "The time it takes to switch between two different frequencies."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p19::q7",
+    "question": "RISC architectures are well -suited for pipelining because:",
+    "choices": {
+      "A": "They have very complex instructions.",
+      "B": "Their instructions are of fixed length and generally execute in a single \nclock cycle.",
+      "C": "They use a Von -Neumann memory model.",
+      "D": "They do not have registers."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p19::q8",
+    "question": "The unit MIPS (Millions of Instructions Per Second) can be a misleading \nperformance metric because:",
+    "choices": {
+      "A": "It doesn't account for the complexity or usefulness of the instructions \nbeing executed.",
+      "B": "It is not dependent on the clock speed.",
+      "C": "It only applies to CISC processors.",
+      "D": "It cannot be measured."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p19::q9",
+    "question": "The \"Decode\" stage of the instruction pipeline is responsible for:",
+    "choices": {
+      "A": "Fetching the instruction from memory.",
+      "B": "Performing the arithmetic or logical operation.",
+      "C": "Interpreting the instruction's opcode to determine what operation to \nperform.",
+      "D": "Writing the result back to a register."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p20::q1",
+    "question": "A system is designed to run a small, fast RTOS for motor control and a full \nLinux OS for a user interface. Which two hardware components are essential \nfor this design?",
+    "choices": {
+      "A": "A fast core and an MMU/MPU.",
+      "B": "A large data bus and an FPU.",
+      "C": "An RC oscillator and Port -Mapped I/O.",
+      "D": "A Harvard architecture and a small cache."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p20::q2",
+    "question": "The sequence of operations: 1. CPU places address on Address Bus. 2. CPU \nasserts Read signal on Control Bus. 3. Memory places data on Data Bus. This \ndescribes a:",
+    "choices": {
+      "A": "Memory Write operation.",
+      "B": "I/O Write operation.",
+      "C": "Memory Read operation.",
+      "D": "Bus arbitration cycle."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p20::q3",
+    "question": "A 32 -bit microcontroller with a 16 -bit external data bus would require how \nmany bus cycles to read a 32 -bit value from memory?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "It cannot read a 32 -bit value."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p20::q4",
+    "question": "An \"active high\" enable pin on a memory chip means that the chip is \nselected and active when the signal to that pin is:",
+    "choices": {
+      "A": "0 (Low)",
+      "B": "1 (High)",
+      "C": "Floating (High -impedance)",
+      "D": "A clock signal."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p21::q6",
+    "question": "If a program crashes and corrupts a section of memory, and this corruption \ncauses a completely unrelated task to fail, the system likely lacks a(n):",
+    "choices": {
+      "A": "FPU",
+      "B": "MPU",
+      "C": "Fast enough clock",
+      "D": "DMA controller"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p21::q7",
+    "question": "The physical vibration of a piezoelectric material is the operating principle \nbehind which type of oscillator?",
+    "choices": {
+      "A": "RC Oscillator",
+      "B": "Crystal Oscillator",
+      "C": "555 Timer",
+      "D": "Ring Oscillator"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p21::q8",
+    "question": "Which of the following statements is true regarding RISC vs. CISC?",
+    "choices": {
+      "A": "RISC emphasizes hardware simplicity; CISC emphasizes ease of \nprogramming in assembly.",
+      "B": "CISC instructions are always faster to execute than RISC instructions.",
+      "C": "RISC processors are incapable of complex math.",
+      "D": "CISC is a newer, more modern approach than RISC."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p22::q10",
+    "question": "The entire memory map, including RAM, ROM, and peripheral registers, is \nmade visible to a Harvard -based CPU core through a component called a:",
+    "choices": {
+      "A": "Bus Matrix or Bridge.",
+      "B": "FPU.",
+      "C": "DMA Controller.",
+      "D": "Clock Tree."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p22::q11",
+    "question": "What is the primary function of a bootloader in an embedded system?",
+    "choices": {
+      "A": "To perform floating -point calculations.",
+      "B": "To initialize the hardware (clocks, memory) and then load and start the \nmain application firmware.",
+      "C": "To provide a graphical user interface.",
+      "D": "To manage task scheduling."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p22::q12",
+    "question": "\"Endianness\" refers to:",
+    "choices": {
+      "A": "The number of bits in a processor's registers.",
+      "B": "The order in which bytes are stored in memory for a multi -byte data type.",
+      "C": "The final instruction in a program.",
+      "D": "The type of bus architecture used."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p22::q13",
+    "question": "A \"watchdog timer\" is a peripheral used to:",
+    "choices": {
+      "A": "Keep track of the time of day.",
+      "B": "Generate precise delays.",
+      "C": "Reset the microcontroller if the software hangs or stops responding.",
+      "D": "Measure the frequency of an external signal."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p23::q15",
+    "question": "If a task in an RTOS overruns its allocated stack space, this is known as a:",
+    "choices": {
+      "A": "Stack overflow",
+      "B": "Heap corruption",
+      "C": "Memory leak",
+      "D": "Null pointer exception"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p23::q16",
+    "question": "Which of the following is an example of volatile memory?",
+    "choices": {
+      "A": "ROM",
+      "B": "Flash Memory",
+      "C": "EEPROM",
+      "D": "RAM"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ES Important Questions::p23::q17",
+    "question": "The process of converting high -level C code into machine code that the \nprocessor can execute is done by a:",
+    "choices": {
+      "A": "Linker",
+      "B": "Compiler",
+      "C": "Debugger",
+      "D": "Loader"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p23::q18",
+    "question": "An interrupt is a signal to the processor that:",
+    "choices": {
+      "A": "Indicates a critical power failure.",
+      "B": "An event of immediate attention has occurred, requiring the processor to \npause its current task and handle the event.",
+      "C": "The program has finished execution.",
+      "D": "A memory read error has happened."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p24::q20",
+    "question": "What is the purpose of a \"linker\" in the embedded software build \nprocess?",
+    "choices": {
+      "A": "To check the C code for syntax errors.",
+      "B": "To combine multiple object files and libraries into a single executable file, \nresolving symbol addresses.",
+      "C": "To download the code to the microcontroller's flash memory.",
+      "D": "To simulate the code's execution on a host PC."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p24::q21",
+    "question": "Direct Memory Access (DMA) is a feature that allows:",
+    "choices": {
+      "A": "The CPU to directly access the memory of another device.",
+      "B": "Peripherals to transfer data directly to or from memory without involving \nthe CPU.",
+      "C": "The debugger to access memory while the CPU is running.",
+      "D": "The bootloader to secure the memory."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p24::q22",
+    "question": "The primary advantage of using DMA for large data transfers is:",
+    "choices": {
+      "A": "It increases the accuracy of the data.",
+      "B": "It frees up the CPU to perform other tasks while the transfer is in progress.",
+      "C": "It reduces the system's power consumption.",
+      "D": "It simplifies the software code."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p24::q23",
+    "question": "\"Firmware\" is a term for:",
+    "choices": {
+      "A": "The physical casing of an embedded device.",
+      "B": "A specific type of non -volatile memory.",
+      "C": "Software that is programmed into a hardware device, often in read -only \nmemory.",
+      "D": "A tool for securely fastening components to a circuit board."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p25::q25",
+    "question": "What is the role of a Phase -Locked Loop (PLL) in a microcontroller's clock \nsystem?",
+    "choices": {
+      "A": "To act as the primary, low -frequency oscillator.",
+      "B": "To shut down the clock to save power.",
+      "C": "To take a stable, low -frequency reference clock and multiply it to generate \na much faster system clock.",
+      "D": "To measure the phase difference between two input signals."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p25::q26",
+    "question": "Which of the following would be considered a real -time constraint?",
+    "choices": {
+      "A": "The system must have a user -friendly interface.",
+      "B": "The airbag must deploy within 15 milliseconds of a detected collision.",
+      "C": "The system must be low -cost.",
+      "D": "The system must boot up in under 30 seconds."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p25::q27",
+    "question": "A \"hard real -time\" system is one where:",
+    "choices": {
+      "A": "Missing a deadline is inconvenient but not catastrophic.",
+      "B": "The system is physically difficult to build.",
+      "C": "Missing a single deadline constitutes a total system failure.",
+      "D": "The system uses a hard disk for storage."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p26::q29",
+    "question": "What is a \"breakpoint\" in the context of debugging?",
+    "choices": {
+      "A": "A physical break in a circuit trace.",
+      "B": "A point in the code where the debugger will automatically pause \nexecution, allowing the developer to inspect the system state.",
+      "C": "A hardware failure in the debug probe.",
+      "D": "The end of the program's memory."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p26::q30",
+    "question": "JTAG and SWD are examples of:",
+    "choices": {
+      "A": "Communication protocols like UART or SPI.",
+      "B": "Memory types.",
+      "C": "Debugging and programming interfaces used to control and inspect the \nCPU.",
+      "D": "Power -saving modes."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p26::q31",
+    "question": "In an embedded system, \"abstractions\" provided by a Hardware \nAbstraction Layer (HAL) are useful because they:",
+    "choices": {
+      "A": "Make the code run faster.",
+      "B": "Reduce the memory footprint of the program.",
+      "C": "Allow the main application code to be more portable by hiding the low -\nlevel, register -specific details of the hardware.",
+      "D": "Eliminate the need for a TRM."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p26::q32",
+    "question": "What does a UART peripheral do?",
+    "choices": {
+      "A": "It converts parallel data from the CPU bus into a serial data stream for \ncommunication, and vice -versa.",
+      "B": "It drives a display.",
+      "C": "It measures analog voltages.",
+      "D": "It keeps track of the current time."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p27::q34",
+    "question": "The I2C (Inter -Integrated Circuit) protocol is unique among common serial \nbuses because it:",
+    "choices": {
+      "A": "Is the fastest protocol available.",
+      "B": "Uses only a single wire for communication.",
+      "C": "Uses a device addressing scheme on a shared two -wire bus, allowing many \ndevices to be connected.",
+      "D": "Does not have a clock signal."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p27::q35",
+    "question": "An Analog -to-Digital Converter (ADC) is a peripheral that:",
+    "choices": {
+      "A": "Converts a digital number into a sound wave.",
+      "B": "Measures a continuous analog voltage and converts it into a discrete \ndigital value.",
+      "C": "Drives an analog motor with digital signals.",
+      "D": "Converts serial data to parallel data."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p27::q36",
+    "question": "The \"resolution\" of an ADC (e.g., 12 -bit) determines:",
+    "choices": {
+      "A": "How fast it can perform conversions.",
+      "B": "The range of voltages it can accept.",
+      "C": "The number of discrete steps it can use to represent the analog input \nvoltage.",
+      "D": "How much power it consumes."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p28::q38",
+    "question": "The \"duty cycle\" of a PWM signal refers to:",
+    "choices": {
+      "A": "The frequency of the signal.",
+      "B": "The voltage of the signal.",
+      "C": "The percentage of time the signal is in the 'high' state during one period.",
+      "D": "The number of cycles per second."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p28::q39",
+    "question": "When debugging, \"stepping over\" a function call means:",
+    "choices": {
+      "A": "The debugger executes the function and pauses on the line immediately \nafter the function call .",
+      "B": "The debugger enters the function and pauses on the first line inside it.",
+      "C": "The debugger skips the function call entirely.",
+      "D": "The debugger runs the program until the function returns."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p28::q40",
+    "question": "A \"memory leak\" in an embedded system with no OS typically occurs \nwhen:",
+    "choices": {
+      "A": "A task fails to free dynamically allocated memory (e.g., from a heap) that \nit no longer needs .",
+      "B": "The stack overflows.",
+      "C": "An MPU fault is triggered.",
+      "D": "The device is unplugged."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p28::q41",
+    "question": "What is the primary role of the instruction set architecture (ISA)?",
+    "choices": {
+      "A": "To define the physical pinout of the microcontroller.",
+      "B": "To define the set of commands (machine code) that a processor can \nunderstand and execute.",
+      "C": "To specify the clock frequency.",
+      "D": "To manage memory protection."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p29::q43",
+    "question": "Context switching in an RTOS is the process of:",
+    "choices": {
+      "A": "Switching the CPU from user mode to supervisor mode.",
+      "B": "Changing the clock frequency of the processor.",
+      "C": "Saving the state of the currently running task and restoring the state of \nthe next task that is scheduled to run.",
+      "D": "Moving data from RAM to flash memory."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p29::q44",
+    "question": "\"Determinism\" in a real -time system means that:",
+    "choices": {
+      "A": "The system always produces the same output for a given input.",
+      "B": "The time taken to respond to an event is predictable and bounded.",
+      "C": "The system is guaranteed to never fail.",
+      "D": "The system's behavior is chosen at random."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p29::q45",
+    "question": "The memory segment where local variables of a function are typically \nstored is called the:",
+    "choices": {
+      "A": "Heap",
+      "B": "BSS",
+      "C": "Text",
+      "D": "Stack"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ES Important Questions::p30::q47",
+    "question": "The .text  or .code  section of a program in memory typically contains:",
+    "choices": {
+      "A": "The executable machine instructions.",
+      "B": "Uninitialized global variables.",
+      "C": "The stack.",
+      "D": "Initialized global variables."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ES Important Questions::p30::q48",
+    "question": "What is a key difference between an interrupt and polling?",
+    "choices": {
+      "A": "Polling is hardware -driven, while interrupts are software -driven.",
+      "B": "An interrupt is an asynchronous, hardware -driven event that demands the \nCPU's attention, while polling involves the CPU actively and repeatedly \nchecking the status of a device.",
+      "C": "Interrupts are slower than polling.",
+      "D": "Polling uses less CPU time than an interrupt -driven approach."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p30::q49",
+    "question": "A \"vector table\" is a data structure used by the processor to:",
+    "choices": {
+      "A": "Store graphical information.",
+      "B": "Look up the starting address of the appropriate Interrupt Service Routine \n(ISR) when an interrupt occurs.",
+      "C": "Manage the file system.",
+      "D": "Store a list of MIPS ratings."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p30::q50",
+    "question": "The \"priority\" of an interrupt determines:",
+    "choices": {
+      "A": "How fast the ISR code will execute.",
+      "B": "Which interrupt should be serviced first if multiple interrupts occur at the \nsame time.",
+      "C": "The memory address of the ISR.",
+      "D": "The power consumed by the interrupt event."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p31::q52",
+    "question": "Bit-banging is a technique where:",
+    "choices": {
+      "A": "A hardware peripheral is used to generate a serial protocol.",
+      "B": "The programmer manually toggles GPIO pins in software to emulate a \ncommunication protocol (like I2C or SPI).",
+      "C": "A hardware bug is fixed by flipping a bit in a register.",
+      "D": "The MPU is configured by setting individual bits."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p31::q53",
+    "question": "The main advantage of a Crystal Oscillator over a Ceramic Resonator is its:",
+    "choices": {
+      "A": "Lower cost.",
+      "B": "Smaller physical size.",
+      "C": "Higher accuracy and stability over temperature.",
+      "D": "Faster startup time."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ES Important Questions::p31::q54",
+    "question": "In a Memory -Mapped System, both RAM and a GPIO peripheral:",
+    "choices": {
+      "A": "Are accessed using special IN/OUT instructions.",
+      "B": "Reside in the same address space.",
+      "C": "Are located on the CPU die.",
+      "D": "Cannot be accessed at the same time."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p31::q55",
+    "question": "The role of the CPU's Program Counter (PC) register is to:",
+    "choices": {
+      "A": "Count the number of programs running.",
+      "B": "Hold the address of the next instruction to be fetched from memory.",
+      "C": "Store the result of the last arithmetic operation.",
+      "D": "Keep track of the stack pointer."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p32::q57",
+    "question": "The \"Flash\" memory commonly used in microcontrollers is a type of:",
+    "choices": {
+      "A": "Volatile RAM.",
+      "B": "Non -volatile memory, meaning it retains data without power.",
+      "C": "Cache memory.",
+      "D": "Single -use programmable memory."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ES Important Questions::p32::q58",
+    "question": "Which of the following would not typically be found on a single System on \nChip (SoC)?",
+    "choices": {
+      "A": "CPU Core",
+      "B": "RAM and Flash Memory",
+      "C": "Peripherals like UART, SPI, GPIO",
+      "D": "A separate, full -sized hard disk drive"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ES Important Questions::p32::q59",
+    "question": "The primary reason to have different power -saving modes (e.g., sleep, \ndeep sleep) in a microcontroller is to:",
+    "choices": {
+      "A": "Reduce the complexity of the software.",
+      "B": "Allow the device to run at a lower voltage.",
+      "C": "Trade -off performance and functionality for reduced power consumption, \nextending battery life.",
+      "D": "Prevent the device from overheating during high -intensity tasks."
+    },
+    "answer": "C"
   }
 ]
