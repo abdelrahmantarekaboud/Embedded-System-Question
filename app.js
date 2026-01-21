@@ -12,7 +12,9 @@ async function loadBank(){
   const res = await fetch('questions.json', {cache:'no-store'});
   const data = await res.json();
 
-  // supports both: Array or {questions:[...]}
+  // Supports both formats:
+  // 1) Array of questions
+  // 2) { questions: [...] }
   BANK = Array.isArray(data) ? data : (data.questions || []);
   $('bankCount').textContent = BANK.length.toString();
   updatePoolInfo();
@@ -22,7 +24,7 @@ function updatePoolInfo(){
   const useMCQ = $('typeMCQ').checked;
   const useTF = $('typeTF').checked;
   const pool = BANK.filter(q => (useMCQ && q.type==='mcq') || (useTF && q.type==='tf'));
-  $('poolInfo').textContent = `متاح: ${pool.length} سؤال حسب اختيارك`;
+  $('poolInfo').textContent = `Available: ${pool.length} questions for your selection`;
 }
 
 function shuffle(arr){
@@ -52,11 +54,23 @@ function startTimer(){
   }, 250);
 }
 
+// Helpers
+function hasAnswerKey(q){
+  return q && q.answer && String(q.answer).trim() !== "" && String(q.answer).toLowerCase() !== "null";
+}
+
+function getOptionText(q, optionId){
+  if(!q || !q.options) return '';
+  const op = q.options.find(o => o.id === optionId);
+  return op ? op.text : '';
+}
+
 function renderQuestion(){
   const q = QUIZ[idx];
-  $('progress').textContent = `سؤال ${idx+1} / ${QUIZ.length}`;
+  $('progress').textContent = `Question ${idx+1} / ${QUIZ.length}`;
   const box = $('questionBox');
   box.innerHTML = '';
+
   const qP = document.createElement('p');
   qP.className='q';
   qP.textContent = q.question;
@@ -67,18 +81,22 @@ function renderQuestion(){
   q.options.forEach(opt=>{
     const row = document.createElement('label');
     row.className='opt';
+
     const input = document.createElement('input');
     input.type='radio';
     input.name='opt';
     input.value=opt.id;
     if(chosen===opt.id) input.checked=true;
+
     input.addEventListener('change', ()=>{
       answers.set(idx, opt.id);
       if(feedbackMode==='instant') showInstantFeedback();
     });
+
     const t = document.createElement('div');
     t.className='t';
     t.textContent = `${opt.id}) ${opt.text}`;
+
     row.appendChild(input);
     row.appendChild(t);
     box.appendChild(row);
@@ -99,17 +117,26 @@ function showInstantFeedback(){
   const q = QUIZ[idx];
   const fb = $('instantFeedback');
   const chosen = answers.get(idx);
-  if(!chosen){
-    fb.className='feedback';
-    fb.textContent = 'اختار إجابة.';
+
+  // No answer key
+  if(!hasAnswerKey(q)){
+    fb.className = 'feedback';
+    fb.textContent = 'ℹ️ This question has no Answer Key in the source file, so it will not be auto-graded.';
     return;
   }
+
+  if(!chosen){
+    fb.className='feedback';
+    fb.textContent = 'Choose an answer.';
+    return;
+  }
+
   if(chosen === q.answer){
     fb.className='feedback ok';
-    fb.textContent = `✅ صح. الإجابة الصحيحة: ${q.answer}`;
+    fb.textContent = `✅ Correct. Answer: ${q.answer}`;
   }else{
     fb.className='feedback bad';
-    fb.textContent = `❌ غلط. إجابتك: ${chosen} | الصح: ${q.answer}`;
+    fb.textContent = `❌ Wrong. Your: ${chosen} | Correct: ${q.answer}`;
   }
 }
 
@@ -120,19 +147,47 @@ function finishQuiz(){
   $('quiz').classList.add('hidden');
   $('result').classList.remove('hidden');
 
-  let correct=0, wrong=0, blank=0;
+  let correct=0, wrong=0, blank=0, noKey=0, graded=0;
+
   QUIZ.forEach((q,i)=>{
     const a = answers.get(i);
-    if(!a) blank++;
-    else if(a===q.answer) correct++;
+
+    if(!a) {
+      blank++;
+      // blank is still blank, but only graded if there is a key (so it can be considered wrong/unanswered)
+      if(hasAnswerKey(q)) graded++;
+      else noKey++;
+      return;
+    }
+
+    if(!hasAnswerKey(q)){
+      // user answered but no key => do not grade
+      noKey++;
+      return;
+    }
+
+    graded++;
+    if(a===q.answer) correct++;
     else wrong++;
   });
-  const score = Math.round((correct/QUIZ.length)*100);
+
+  // Score based on graded questions only (to avoid 0% بسبب null)
+  const score = graded > 0 ? Math.round((correct/graded)*100) : 0;
 
   $('score').textContent = `${score}%`;
   $('correct').textContent = String(correct);
   $('wrong').textContent = String(wrong);
   $('blank').textContent = String(blank);
+
+  // Auto-show review after finish
+  buildReview();
+  $('review').classList.remove('hidden');
+
+  // If you have a review button, set its text to "Hide review"
+  const rb = $('reviewBtn');
+  if(rb){
+    rb.textContent = 'Hide Review';
+  }
 }
 
 function buildReview(){
@@ -145,17 +200,21 @@ function buildReview(){
     const item = document.createElement('div');
     item.className='revItem';
 
-    // Badge (Correct/Wrong/Blank)
+    // Badge
     const badge = document.createElement('span');
-    if(!userAns){
+
+    if(!hasAnswerKey(q)){
       badge.className='badge blank';
-      badge.textContent='بدون إجابة';
+      badge.textContent='No Key';
+    }else if(!userAns){
+      badge.className='badge blank';
+      badge.textContent='Unanswered';
     }else if(userAns===q.answer){
       badge.className='badge ok';
-      badge.textContent='صح';
+      badge.textContent='Correct';
     }else{
       badge.className='badge bad';
-      badge.textContent='غلط';
+      badge.textContent='Wrong';
     }
 
     const title = document.createElement('div');
@@ -166,7 +225,7 @@ function buildReview(){
 
     const h = document.createElement('div');
     h.style.fontWeight='800';
-    h.textContent = `سؤال ${i+1}`;
+    h.textContent = `Question ${i+1}`;
     title.appendChild(h);
     title.appendChild(badge);
 
@@ -174,7 +233,7 @@ function buildReview(){
     qText.style.marginTop='8px';
     qText.textContent = q.question;
 
-    // Options block: show all options, mark Your + Correct
+    // Options (show all + mark your/correct)
     const optsWrap = document.createElement('div');
     optsWrap.style.marginTop = '10px';
 
@@ -183,15 +242,15 @@ function buildReview(){
       row.className = 'opt';
 
       const isUser = userAns === opt.id;
-      const isCorrect = q.answer === opt.id;
+      const isCorrect = hasAnswerKey(q) && q.answer === opt.id;
 
-      // Visual border highlight
+      // Highlights
       if(isCorrect) row.style.borderColor = '#2d8a5e'; // green
       if(isUser && !isCorrect) row.style.borderColor = '#a93a4d'; // red
 
       const mark = document.createElement('div');
       mark.style.fontWeight='800';
-      mark.style.minWidth='90px';
+      mark.style.minWidth='120px';
 
       if(isCorrect && isUser) mark.textContent = '✅ Your + Correct';
       else if(isCorrect) mark.textContent = '✅ Correct';
@@ -207,16 +266,30 @@ function buildReview(){
       optsWrap.appendChild(row);
     });
 
-    // Summary line
+    // Summary (FULL TEXT)
     const summary = document.createElement('div');
     summary.style.marginTop='8px';
-    summary.innerHTML =
-      `<span class="muted">إجابتك:</span> ${userAns ?? '-'} &nbsp; | &nbsp; <span class="muted">الصح:</span> ${q.answer}`;
 
+    const yourFull = userAns ? `${userAns}) ${getOptionText(q, userAns)}` : '-';
+
+    if(!hasAnswerKey(q)){
+      summary.innerHTML =
+        `<div><span class="muted">Your Answer:</span> ${yourFull}</div>
+         <div><span class="muted">Correct Answer:</span> N/A (No Answer Key in source)</div>`;
+    } else {
+      const correctFull = `${q.answer}) ${getOptionText(q, q.answer)}`;
+      summary.innerHTML =
+        `<div><span class="muted">Your Answer:</span> ${yourFull}</div>
+         <div><span class="muted">Correct Answer:</span> ${correctFull}</div>`;
+    }
+
+    // Source
     const src = document.createElement('div');
     src.className='muted';
     src.style.marginTop='6px';
-    src.textContent = `المصدر: ${q.source} - صفحة ${q.page}`;
+    const srcName = q.source ?? '-';
+    const srcPage = (q.page ?? '-') ;
+    src.textContent = `Source: ${srcName} | Page: ${srcPage}`;
 
     item.appendChild(title);
     item.appendChild(qText);
@@ -232,16 +305,19 @@ function startQuiz(){
   const useMCQ = $('typeMCQ').checked;
   const useTF = $('typeTF').checked;
   if(!useMCQ && !useTF){
-    alert('لازم تختار نوع سؤال واحد على الأقل.');
+    alert('Please select at least one question type.');
     return;
   }
 
   feedbackMode = $('feedbackMode').value;
   const shuffleOn = $('shuffle').value==='yes';
 
+  // IMPORTANT:
+  // Keep all questions (including no-key) so no question is "missing".
+  // They will show "No Key" and won't affect score.
   const pool = BANK.filter(q => (useMCQ && q.type==='mcq') || (useTF && q.type==='tf'));
   if(pool.length===0){
-    alert('مفيش أسئلة متاحة حسب اختيارك.');
+    alert('No questions available for your selection.');
     return;
   }
 
@@ -263,6 +339,13 @@ function startQuiz(){
   $('result').classList.add('hidden');
   $('quiz').classList.remove('hidden');
 
+  // hide review area while doing quiz
+  const r = $('review');
+  if(r){
+    r.classList.add('hidden');
+    r.innerHTML = '';
+  }
+
   renderQuestion();
   startTimer();
 }
@@ -275,6 +358,12 @@ function resetAll(){
   $('review').classList.add('hidden');
   $('review').innerHTML='';
   $('timer').classList.add('hidden');
+
+  // reset review button text if exists
+  const rb = $('reviewBtn');
+  if(rb){
+    rb.textContent = 'Review Answers';
+  }
 }
 
 window.addEventListener('load', async ()=>{
@@ -289,15 +378,20 @@ window.addEventListener('load', async ()=>{
   $('finishBtn').addEventListener('click', finishQuiz);
 
   $('restartBtn').addEventListener('click', resetAll);
-  $('reviewBtn').addEventListener('click', ()=>{
-    const r=$('review');
-    if(r.classList.contains('hidden')){
-      buildReview();
-      r.classList.remove('hidden');
-      $('reviewBtn').textContent='إخفاء المراجعة';
-    }else{
-      r.classList.add('hidden');
-      $('reviewBtn').textContent='مراجعة الإجابات';
-    }
-  });
+
+  // If you still keep a review toggle button:
+  const rb = $('reviewBtn');
+  if(rb){
+    rb.addEventListener('click', ()=>{
+      const r=$('review');
+      if(r.classList.contains('hidden')){
+        buildReview();
+        r.classList.remove('hidden');
+        rb.textContent='Hide Review';
+      }else{
+        r.classList.add('hidden');
+        rb.textContent='Review Answers';
+      }
+    });
+  }
 });
