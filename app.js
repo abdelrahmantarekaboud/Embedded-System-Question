@@ -10,7 +10,10 @@ function $(id){return document.getElementById(id);}
 
 async function loadBank(){
   const res = await fetch('questions.json', {cache:'no-store'});
-  BANK = await res.json();
+  const data = await res.json();
+
+  // supports both: Array or {questions:[...]}
+  BANK = Array.isArray(data) ? data : (data.questions || []);
   $('bankCount').textContent = BANK.length.toString();
   updatePoolInfo();
 }
@@ -135,21 +138,32 @@ function finishQuiz(){
 function buildReview(){
   const wrap = $('review');
   wrap.innerHTML='';
+
   QUIZ.forEach((q,i)=>{
-    const a = answers.get(i) || null;
+    const userAns = answers.get(i) || null;
+
     const item = document.createElement('div');
     item.className='revItem';
 
+    // Badge (Correct/Wrong/Blank)
     const badge = document.createElement('span');
-    if(!a){ badge.className='badge blank'; badge.textContent='بدون إجابة'; }
-    else if(a===q.answer){ badge.className='badge ok'; badge.textContent='صح'; }
-    else { badge.className='badge bad'; badge.textContent='غلط'; }
+    if(!userAns){
+      badge.className='badge blank';
+      badge.textContent='بدون إجابة';
+    }else if(userAns===q.answer){
+      badge.className='badge ok';
+      badge.textContent='صح';
+    }else{
+      badge.className='badge bad';
+      badge.textContent='غلط';
+    }
 
     const title = document.createElement('div');
     title.style.display='flex';
     title.style.justifyContent='space-between';
     title.style.alignItems='center';
     title.style.gap='10px';
+
     const h = document.createElement('div');
     h.style.fontWeight='800';
     h.textContent = `سؤال ${i+1}`;
@@ -160,9 +174,44 @@ function buildReview(){
     qText.style.marginTop='8px';
     qText.textContent = q.question;
 
-    const your = document.createElement('div');
-    your.style.marginTop='8px';
-    your.innerHTML = `<span class="muted">إجابتك:</span> ${a ?? '-'} &nbsp; | &nbsp; <span class="muted">الصح:</span> ${q.answer}`;
+    // Options block: show all options, mark Your + Correct
+    const optsWrap = document.createElement('div');
+    optsWrap.style.marginTop = '10px';
+
+    q.options.forEach(opt=>{
+      const row = document.createElement('div');
+      row.className = 'opt';
+
+      const isUser = userAns === opt.id;
+      const isCorrect = q.answer === opt.id;
+
+      // Visual border highlight
+      if(isCorrect) row.style.borderColor = '#2d8a5e'; // green
+      if(isUser && !isCorrect) row.style.borderColor = '#a93a4d'; // red
+
+      const mark = document.createElement('div');
+      mark.style.fontWeight='800';
+      mark.style.minWidth='90px';
+
+      if(isCorrect && isUser) mark.textContent = '✅ Your + Correct';
+      else if(isCorrect) mark.textContent = '✅ Correct';
+      else if(isUser) mark.textContent = '❌ Your';
+      else mark.textContent = '';
+
+      const text = document.createElement('div');
+      text.className='t';
+      text.textContent = `${opt.id}) ${opt.text}`;
+
+      row.appendChild(mark);
+      row.appendChild(text);
+      optsWrap.appendChild(row);
+    });
+
+    // Summary line
+    const summary = document.createElement('div');
+    summary.style.marginTop='8px';
+    summary.innerHTML =
+      `<span class="muted">إجابتك:</span> ${userAns ?? '-'} &nbsp; | &nbsp; <span class="muted">الصح:</span> ${q.answer}`;
 
     const src = document.createElement('div');
     src.className='muted';
@@ -171,7 +220,8 @@ function buildReview(){
 
     item.appendChild(title);
     item.appendChild(qText);
-    item.appendChild(your);
+    item.appendChild(optsWrap);
+    item.appendChild(summary);
     item.appendChild(src);
 
     wrap.appendChild(item);
