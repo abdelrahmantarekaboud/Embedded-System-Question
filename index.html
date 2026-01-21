@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,74 +10,76 @@
   <div class="container">
     <header>
       <div class="topBrand">
-  <div class="logoText">ZaRZoR</div>
-  <div class="siteTitle">Embedded Systems Quiz</div>
-</div>
+        <div class="logoText">ZaRZoR</div>
+        <div class="siteTitle">Embedded Systems Quiz</div>
+      </div>
 
-      <p class="sub">اختار نوع الأسئلة، وعددها، وابدأ الامتحان. في الآخر هتاخد سكور + مراجعة.</p>
+      <p class="sub">
+        Choose question types and count, then start the quiz. At the end you’ll get a score and a full review.
+      </p>
     </header>
 
     <section id="setup" class="card">
-      <h2>إعدادات الامتحان</h2>
+      <h2>Quiz Settings</h2>
 
       <div class="grid">
         <label class="field">
-          <span>عدد الأسئلة</span>
+          <span>Number of Questions</span>
           <input id="numQuestions" type="number" min="1" value="50" />
         </label>
 
         <label class="field">
-          <span>ترتيب عشوائي</span>
+          <span>Shuffle</span>
           <select id="shuffle">
-            <option value="yes" selected>نعم</option>
-            <option value="no">لا</option>
+            <option value="yes" selected>Yes</option>
+            <option value="no">No</option>
           </select>
         </label>
 
         <label class="field">
-          <span>عرض التصحيح</span>
+          <span>Show Feedback</span>
           <select id="feedbackMode">
-            <option value="end" selected>في النهاية</option>
-            <option value="instant">بعد كل سؤال</option>
+            <option value="end" selected>At the end</option>
+            <option value="instant">After each question</option>
           </select>
         </label>
 
         <label class="field">
-          <span>تايمر (اختياري)</span>
+          <span>Timer (optional)</span>
           <select id="timerMode">
-            <option value="off" selected>بدون</option>
-            <option value="30">30 دقيقة</option>
-            <option value="60">60 دقيقة</option>
-            <option value="90">90 دقيقة</option>
+            <option value="off" selected>Off</option>
+            <option value="30">30 minutes</option>
+            <option value="60">60 minutes</option>
+            <option value="90">90 minutes</option>
           </select>
         </label>
       </div>
 
       <div class="types">
-        <label class="check"><input type="checkbox" id="typeMCQ" checked /> اختيار من متعدد (MCQ)</label>
+        <label class="check"><input type="checkbox" id="typeMCQ" checked /> Multiple Choice (MCQ)</label>
         <label class="check"><input type="checkbox" id="typeTF" checked /> True / False</label>
       </div>
 
       <div class="row">
-        <button id="startBtn" class="primary">ابدأ</button>
+        <button id="startBtn" class="primary">Start</button>
         <span id="poolInfo" class="muted"></span>
       </div>
 
       <div class="hint muted">
-        بنك الأسئلة: <span id="bankCount">...</span> سؤال (بإجابات مؤكدة).
+        Question Bank: <span id="bankCount">...</span> questions (with confirmed answers).
       </div>
     </section>
 
     <section id="quiz" class="card hidden">
       <div class="topbar">
         <div>
-          <span id="progress">سؤال 1 / 1</span>
+          <span id="progress">Question 1 / 1</span>
           <span id="timer" class="pill hidden">00:00</span>
         </div>
         <div class="nav">
-          <button id="prevBtn" class="ghost">السابق</button>
-          <button id="nextBtn" class="ghost">التالي</button>
-          <button id="finishBtn" class="danger">إنهاء</button>
+          <button id="prevBtn" class="ghost">Previous</button>
+          <button id="nextBtn" class="ghost">Next</button>
+          <button id="finishBtn" class="danger">Finish</button>
         </div>
       </div>
 
@@ -87,25 +89,28 @@
     </section>
 
     <section id="result" class="card hidden">
-      <h2>النتيجة</h2>
+      <h2>Results</h2>
+
       <div class="stats">
         <div class="stat"><div class="k">Score</div><div id="score" class="v">0</div></div>
-        <div class="stat"><div class="k">صح</div><div id="correct" class="v">0</div></div>
-        <div class="stat"><div class="k">غلط</div><div id="wrong" class="v">0</div></div>
-        <div class="stat"><div class="k">بدون إجابة</div><div id="blank" class="v">0</div></div>
+        <div class="stat"><div class="k">Correct</div><div id="correct" class="v">0</div></div>
+        <div class="stat"><div class="k">Wrong</div><div id="wrong" class="v">0</div></div>
+        <div class="stat"><div class="k">Unanswered</div><div id="blank" class="v">0</div></div>
       </div>
 
       <div class="row">
-        <button id="restartBtn" class="primary">ابدأ تاني</button>
-        <button id="reviewBtn" class="ghost">مراجعة الإجابات</button>
+        <button id="restartBtn" class="primary">Restart</button>
+        <button id="reviewBtn" class="ghost">Review Answers</button>
       </div>
 
       <div id="review" class="hidden"></div>
     </section>
 
-    <footer class="muted foot">
-      <span>Powered by Abdo Tarek</span>
-    </footer>
+   <footer class="muted foot">
+  <div>Powered by Abdo Tarek</div>
+  <div class="dua">ولا تنسونا من دعائكم 🤲</div>
+</footer>
+
   </div>
 
   <script src="app.js"></script>
