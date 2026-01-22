@@ -12997,7 +12997,7 @@
         "text": "Fetch and Execute"
       }
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "ES Questions 2025-2026::p29::q14",
@@ -15179,18 +15179,33 @@
     ],
     "answer": "B"
   },
-{
-  "id": "ES Questions 2025-2026::p57::q5",
-  "type": "mcq",
-  "question": "What does MPU stand for?",
-  "options": [
-    { "id": "A", "text": "Main Processing Unit" },
-    { "id": "B", "text": "Memory Protection Unit" },
-    { "id": "C", "text": "Microprocessor Unit" },
-    { "id": "D", "text": "Memory Processing Unit" }
-  ],
-  "answer": ["B", "C"]
-},
+  {
+    "id": "ES Questions 2025-2026::p57::q5",
+    "type": "mcq",
+    "question": "What does MPU stand for?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Main Processing Unit"
+      },
+      {
+        "id": "B",
+        "text": "Memory Protection Unit"
+      },
+      {
+        "id": "C",
+        "text": "Microprocessor Unit"
+      },
+      {
+        "id": "D",
+        "text": "Memory Processing Unit"
+      }
+    ],
+    "answer": [
+      "B",
+      "C"
+    ]
+  },
   {
     "id": "ES Questions 2025-2026::p58::q6",
     "type": "mcq",
@@ -16797,7 +16812,7 @@
         "text": "All are immune"
       }
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": "ES Questions 2025-2026::p77::q13",
@@ -17085,7 +17100,7 @@
         "text": "General-Program Input/Output"
       }
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": "ES Questions 2025-2026::p81::q5",
